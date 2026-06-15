@@ -65,5 +65,29 @@ In this way, the software is **self-transforming**.
 The act of using the software and the act of authoring it become the same act. You can talk to an SSI application as a user, but the framework through which it expresses itself, and through which it couples to you, is not simply a chat interface. The whole point is that you communicate with the software in a way that transforms it. **Speech becomes structure. Intent becomes architecture.**
 
 A few principles fall out of all this, and they are worth stating plainly.
+### Principles of SSI
 
-### Principle
+**The software ships as a capacity, not as a set of capabilities.**
+What arrives in your hands is not a frozen bundle of features but a generative kernel: the agent harness, the primitives, and the constraints. The features come later, summoned on demand, shaped by use.
+
+**Authorship moves from the past into the present.**
+In traditional software, the making happened before release, in a building you will never visit, expressing the intent of people you will never meet. In SSI, the making is continuous with the using. You are a co-author, not a tenant.
+
+**Identity migrates from the feature set to the invariant core plus its lived history.**
+Two copies of an SSI application that shipped identical would, after a year of use, be genuinely different individuals. Not different configurations of the same product, but different things — each one a fossil record of the work its user actually did. The invariants are the spine that stays fixed while everything above them transforms. The constraints govern what can move and how. A thing that could change everything about itself would dissolve into a runtime with no character. A thing that changes everything except a carefully chosen core can grow a biography without losing a self.
+
+---
+
+## A Cultural Note
+
+There is a cultural shift latent in all of this, and I think it is a hopeful one.
+
+If building in this way became a norm rather than an exception, I believe something would begin to change in the culture around creative work. At the center of that change is **control of the frame**. Most tools hand you a frame and ask you to work inside it. SSI hands you the means to shape the frame itself, and then, over time, to shape the way you shape it. That second movement is the one I find most exciting, because it is where the real authorship lives.
+
+When you build this way, using the tool becomes an act of symbolic shaping and gesture. You are not selecting from a menu of someone else's decisions. You are reaching into the material and forming it, and each act of forming leaves something behind. You develop an abstract and symbolic layer that grows organically out of you — a meta-language that is yours. You come to know that meta-language intimately, the way you come to know an instrument you have played for years, because you did not inherit it. You grew it. It carries your accent because it was shaped by your own history of reaching for things.
+
+This is a different relationship to a tool than the one most of us have lived inside. The tool stops being a fixed surface you press against and becomes a frame you are continually authoring. You learn the language you are using, and you also learn to extend it, to bend it toward what you actually mean. The distance between having an idea and making the thing closes, not because the work becomes easier in some shallow sense, but because the frame itself moves with you instead of resisting you. So much intention never survives the journey from the mind to the tool. When the frame is yours to shape, more of what you actually meant to make survives.
+
+There is also something in the grain of this approach that resists the flattening I have come to expect from software. Frames that grow in each person's own hands diverge rather than converge. If many people built this way, the work would carry more of the particular person in it — more idiosyncrasy, more accent — because the instrument itself would have been shaped by the one playing it. A creative class defined less by access to expensive or arcane tools, and more by the clarity of what each person is trying to say and the frame they have built to say it in, is something I find genuinely hopeful. If we made this way of building ordinary, the culture of making could become more open, more personal, and more alive.
+
+**This is SSI.**

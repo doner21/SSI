@@ -1,0 +1,48 @@
+=== God Nodes ===
+## God Nodes (most connected - your core abstractions)
+1. `agerr()` - 122 edges
+2. `JS_ThrowTypeError()` - 116 edges
+3. `agfstnode()` - 98 edges
+4. `agnxtnode()` - 96 edges
+5. `duk_get_tval()` - 80 edges
+6. `agraphof()` - 75 edges
+7. `gd_rank()` - 70 edges
+8. `agnameof()` - 68 edges
+9. `duk_get_top()` - 65 edges
+10. `duk_pop()` - 62 edges
+
+
+
+=== Surprising Connections ===
+## Surprising Connections (you probably didn't know these)
+- `Cmajor as Single Point of Failure` --semantically_similar_to--> `GPLv3: Combined Work Requires Entire DAW GPL`  [INFERRED] [semantically similar]
+  NEXT-SCOPE-RECOMMENDATION.md -> cmajor/CMAJOR-DECISION-BRIEF.md
+- `value()` --calls--> `getSignature()`  [INFERRED]
+  cmajor-headers/include/choc/choc/containers/choc_Value.h -> cmajor-sdk/modules/compiler/src/codegen/cmaj_CodeGenHelpers.h
+- `value()` --calls--> `getStringForHandle()`  [INFERRED]
+  cmajor-headers/include/choc/choc/containers/choc_Value.h -> cmajor-sdk/tools/command/Source/unit_tests/cmaj_CLAPPluginUnitTests.h
+- `mkIntItem()` --calls--> `New()`  [INFERRED]
+  cmajor-sdk/3rdParty/graphviz/common/intset.c -> cmajor-headers/include/choc/choc/javascript/choc_javascript_V8.h
+- `string()` --calls--> `parseValue()`  [INFERRED]
+  cmajor-sdk/modules/scripting/src/cmaj_javascript_Performer.h -> cmajor-headers/include/choc/choc/text/choc_JSON.h
+
+
+
+=== Suggested Questions ===
+## Suggested Questions
+_Questions this graph is uniquely positioned to answer:_
+
+- **Why does `m()` connect `QuickJS Minified Engine` to `SubtractOne GUI (React Bundle)`, `Piano Keyboard UI Components`, `QuickJS Minified (Compression)`, `SubtractOne GUI Minimified`?**
+  _High betweenness centrality (0.189) - this node is a cross-community bridge._
+- **Why does `javascript()` connect `QuickJS Minified Engine` to `QuickJS JavaScript Engine`?**
+  _High betweenness centrality (0.189) - this node is a cross-community bridge._
+- **Why does `Fn()` connect `CHOC Debug/Trangulation` to `SubtractOne GUI (React Bundle)`, `Graphviz Tree/DT Methods`, `CHOC Win32 Desktop/DLL`, `Graphviz View/Disc Data`, `WAM Event Scheduling`?**
+  _High betweenness centrality (0.151) - this node is a cross-community bridge._
+- **Are the 120 inferred relationships involving `agerr()` (e.g. with `agapply()` and `agdictof()`) actually correct?**
+  _`agerr()` has 120 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 97 inferred relationships involving `agfstnode()` (e.g. with `setattr()` and `init_all_attrs()`) actually correct?**
+  _`agfstnode()` has 97 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 95 inferred relationships involving `agnxtnode()` (e.g. with `setattr()` and `init_all_attrs()`) actually correct?**
+  _`agnxtnode()` has 95 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `Synthetic Ground-Truth Generative Model`, `Generic Linter Baseline (ii)`, `User-Aware Heuristic Baseline (iii)` to the rest of the system?**
+  _100 weakly-connected nodes found - possible documentation gaps or missing edges._

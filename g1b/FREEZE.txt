@@ -1,0 +1,12 @@
+G1B PRE-REGISTRATION FREEZE
+Frozen by: Orchestrator (visible session, Opus 4.8 acting as piNen)
+Frozen at: 2026-06-30T01:18:00Z (before any results existed; src/ artifacts/ data/ confirmed empty)
+Method: content-hash freeze (no git commit, per git-safety policy)
+
+LOCKED ARTIFACTS — SHA-256:
+PRE-REGISTRATION.md  afa823bc0017636be7e2953a1e8b8adb91ef4849c46d755e738cd12dd6fa2a2b
+HARNESS-SPEC.md      6dfd501e6c870ac98338f6526b0665ebf2d0f4bea731082b0cecb8eeefd5ed3b
+
+RULE: Phase-2 execution may NOT modify these two files. Any change to a locked
+hash invalidates the pre-registration and the gate result. The Phase-2 verifier
+must re-confirm both hashes are unchanged before accepting any results.

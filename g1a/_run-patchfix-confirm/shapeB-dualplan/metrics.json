@@ -1,0 +1,92 @@
+{
+  "prereg": {
+    "path": "../PRE-REGISTRATION-PATCHFIX.md",
+    "sha256_frozen": "ea053f8250e5e5096fdf5abb6bd1ef84d80eab0aa151ec561093a03228e57411",
+    "sha256_recomputed": "ea053f8250e5e5096fdf5abb6bd1ef84d80eab0aa151ec561093a03228e57411",
+    "match": true,
+    "modified": false
+  },
+  "treatment": {
+    "description": "One-line patch fix: sin(twoPi*phase) -> sin(phase) in patches.h line 29",
+    "accumulator_unchanged": true,
+    "diff_lines_vs_buggy": 1
+  },
+  "locked_params": {
+    "fs": 48000, "block": 256, "n_blocks": 10000,
+    "k_prepare_start": 100, "k_xfade_start": 4000, "w_xfade": 64, "k_swap": 4064,
+    "p_meas": 512, "r_repeats": 5, "seed_master": "0x6121A0003",
+    "amp": 0.25, "freq_palette": [220, 330, 440, 550, 660],
+    "eps_xfade": 1e-6, "s_click": 0.05, "rel_min": 0.40,
+    "w_warm": 1, "dll_version": "1.0.3159"
+  },
+  "variantP0": {
+    "description": "Corrected patch, no-swap plain render",
+    "click_max": 0.021591742523014545,
+    "click_max_le_0.05": true,
+    "argmax_sample": 1479753,
+    "argmax_block": 5780,
+    "argmax_offset": 73,
+    "slew_median": 0.009455740451812744,
+    "slew_p95": 0.021271016448736191,
+    "slew_p99": 0.021578961983323097,
+    "slew_mean": 0.009300962807343154,
+    "output_sha256": "3070e2d8beef62de39472ad39535273c5c7ecf7018af5d7373d1eb3d3880b312",
+    "events_applied": 4,
+    "asan_clean": true,
+    "asan_log": "variantP0/artifacts/asan_run.log",
+    "asan_violations": 0,
+    "verdict": "PASS"
+  },
+  "diag_buggy_P0": {
+    "description": "Buggy patch, identical no-swap path (control)",
+    "click_max": 0.24705768844796694,
+    "click_max_le_0.05": false,
+    "argmax_sample": 858227,
+    "argmax_block": 3352,
+    "argmax_offset": 115,
+    "slew_median": 0.05927136540412903,
+    "slew_p95": 0.13254645466804504,
+    "slew_p99": 0.13404498994350433,
+    "slew_mean": 0.058691940887010505,
+    "output_sha256": "c7d08e1eff06043a23b1bd66f2d2533455edf4fbf42148bb43be540e73eee58b",
+    "events_applied": 4,
+    "asan_clean": true,
+    "asan_log": "diag-buggy-P0/artifacts/asan_run.log",
+    "asan_violations": 0,
+    "verdict": "FAIL"
+  },
+  "before_after_slew": {
+    "buggy_click_max": 0.247058,
+    "corrected_click_max": 0.021592,
+    "reduction_pct": 91.26,
+    "buggy_slew_median": 0.059271,
+    "corrected_slew_median": 0.009456,
+    "median_reduction_pct": 84.05
+  },
+  "variantP1": {
+    "description": "Full winning bridge (Variant-E + Variant-F), corrected patch",
+    "R1_pass": true,
+    "R2_pass": true,
+    "R3_pass": true,
+    "R4_pass": true,
+    "asan_clean": true,
+    "proof_complete": true,
+    "click_max": 0.021591742523014545,
+    "click_boundary_excluded": true,
+    "maxerr_reload_A": 0.0,
+    "maxerr_B_xfade": 0.0,
+    "maxerr_reload_B": 0.0,
+    "mix_err": 7.449216271604442e-09,
+    "rel_expected_Bpost": 1.000026580030959,
+    "rel_expected_Apre": 0.9999970986104271,
+    "swap_block": 4064,
+    "swap_count": 1,
+    "xrun_at_swap": 0,
+    "output_sha256_repeat0": "5e0313397f5dac016892332b81d9e9fa956c6779a6208b5ece1859372a261d66",
+    "repro_5of5": true,
+    "verdict": "PASS"
+  },
+  "final_verdict": "PASS",
+  "final_verdict_rule": "(P0 click_max <= 0.05) AND (P1 R1 AND R2' AND R3 AND R4 PASS)",
+  "final_verdict_eval": "TRUE AND TRUE AND TRUE AND TRUE AND TRUE = TRUE"
+}

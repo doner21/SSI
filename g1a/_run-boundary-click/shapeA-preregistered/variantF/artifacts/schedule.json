@@ -1,0 +1,26 @@
+{
+  "seed_master": "0x6121a0003",
+  "algorithm": "SplitMix64",
+  "freq_palette": [220, 330, 440, 550, 660],
+  "event_model": "change-blocks-only",
+  "events": [
+    [ 2481, 440 ],
+    [ 4031, 550 ],
+    [ 4039, 550 ],
+    [ 5448, 660 ]
+  ],
+  "events_scheduled_in_0_KSWAP": 3,
+  "events_scheduled_in_KXFADE_KSWAP": 2,
+  "events_scheduled_in_KSWAP_N": 1,
+  "sentinels": {
+    "at_least_one_in_0_KXFADE": true,
+    "no_change_in_APRE_3488_4000": true,
+    "change_strictly_before_KSWAP": true,
+    "no_change_in_BPOST_4064_4576": true,
+    "at_least_one_after_BPOST": true
+  },
+  "stateAt_KXFADE_START": 440,
+  "stateAt_KSWAP": 550,
+  "APRE_frequency": 440,
+  "sha256": "f23e805c7b680acb02bebe3b495d8ac32810eb989cf94f36f75b9a454171a4e0"
+}

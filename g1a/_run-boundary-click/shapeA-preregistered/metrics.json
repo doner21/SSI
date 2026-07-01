@@ -1,0 +1,54 @@
+{
+  "run": "shapeA-preregistered (BOUNDARY-CLICK)",
+  "prereg_sha256": "764219813f1fb93708842fb8fc53977fdf9e875bf38dfc14d27c88f91b908839",
+  "prereg_modified": false,
+  "variantF": {
+    "R1": {
+      "pass": true
+    },
+    "R2": {
+      "pass": true
+    },
+    "R3": {
+      "pass": false
+    },
+    "R4": {
+      "pass": true
+    },
+    "click_max": 0.24705768844796694,
+    "maxerr_reload_B": 0,
+    "maxerr_B_xfade": 0,
+    "maxerr_reload_A": 0,
+    "reset_called_on_B": false,
+    "swap_count": 1,
+    "asan_clean": true,
+    "final_verdict": "FAIL"
+  },
+  "variantG": {
+    "R1": {
+      "pass": true
+    },
+    "R2": {
+      "pass": true
+    },
+    "R3": {
+      "pass": false
+    },
+    "R4": {
+      "pass": true
+    },
+    "click_max": 0.24705768844796694,
+    "maxerr_reload_B": 0,
+    "maxerr_B_xfade": 0,
+    "maxerr_reload_A": 0,
+    "reset_called_on_B": true,
+    "swap_count": 1,
+    "asan_clean": true,
+    "final_verdict": "FAIL"
+  },
+  "verdict_rule": "FINAL PASS iff (F PASS) OR (G PASS) per PRE-REG \u00a76",
+  "final_verdict": "FAIL",
+  "failing_subgate": "R3.click_max=0.24705768844796694 > 0.05",
+  "root_cause": "engine-level single-sample dropouts in Cmajor FreqSine v1.0.3159 (reproduced by oracle REF_A; maxerr_reload_A==0); NOT a K_SWAP reset+latch transient. See ROOT_CAUSE_click.json.",
+  "fallback_emitted": "FALLBACK_EMITTED.txt (PRE-REG \u00a77 verbatim)"
+}

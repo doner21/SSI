@@ -1,0 +1,33 @@
+G1A TSan/Linux — logic_diff_witness.txt
+========================================
+Module-by-module mapping of the Linux port to the Windows reload-bridge harness
+(_run-reload/spike/). The thread/swap/crossfade/release LOGIC is structurally
+identical; ONLY platform-primitive substitutions per HARNESS-SPEC §7.1 were made.
+
+host_config.h    : IDENTICAL params; SEED_MASTER 0x6121A0002 -> 0x6121A0003 (locked
+                   distinct seed, PRE-REG §4.2); DLL_NAME CmajPerformer.dll ->
+                   libCmajPerformer.so; added EPS_SPECTRAL/EPS_PREFIX + Windows
+                   reference spectral constants for the T4f cross-platform gate.
+patches.h        : IDENTICAL (Cmajor source is platform-agnostic; SineA 440 / SineB 880).
+engine_setup.*   : IDENTICAL call sequence (parse->setBuildSettings->load->
+                   getEndpointHandle[after load,before link]->link->createPerformer);
+                   only Library::initialise("libCmajPerformer.so").
+bg_compiler.*    : IDENTICAL worker logic; synchronous Engine B build, bReady
+                   release publication; no CRT debug heap.
+swap.*           : IDENTICAL (std::atomic<uint32_t> activeIndex + std::atomic<bool>
+                   bReady handoff; post-crossfade safe release). std::atomic is portable.
+rt_render.*      : IDENTICAL render/swap/crossfade logic; QueryPerformanceCounter ->
+                   clock_gettime(CLOCK_MONOTONIC) (timing INFORMATIVE ONLY under TSan);
+                   windows.h removed; -DTSAN_RT_PROBE adds the T3b planted RT-loop race
+                   ONLY in the probe binary (the cert binary has NO planted race).
+crossfade.*      : IDENTICAL per-sample linear alpha host mix.
+perturb.*        : IDENTICAL SplitMix64 seeded interleaving perturbation; only SEED_MASTER differs.
+metrics.*        : IDENTICAL Goertzel/mix/click/completeness/SHA-256; ADDED WAV-read +
+                   bounded prefix-delta (T4f) + TSan-log parsing (T2/T3). No threshold change.
+proof.*          : IDENTICAL WAV writer; metrics.json upgraded R1-R4 -> T1-T4 schema (PRE-REG §6).
+main.cpp         : IDENTICAL orchestration order; ASan ingestion replaced by TSan-log
+                   ingestion (T2/T3a/T3b) + T1 build-log ingestion + T4f cross-platform.
+
+NO synchronisation beyond activeIndex / bReady / crossfade-window was introduced
+(HARNESS-SPEC §11 static-audit constraint). The swap lands at K_SWAP=4064; the old
+performer is released only post-crossfade and post-acquire-load.

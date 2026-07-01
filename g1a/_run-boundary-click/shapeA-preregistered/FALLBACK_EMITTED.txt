@@ -1,0 +1,22 @@
+PRE-REGISTRATION §7 PRE-DECLARED FALLBACK — emitted verbatim on FINAL FAIL
+==========================================================================
+
+If the swap-boundary click cannot be brought ≤ 0.05 while preserving bit-exact
+post-swap (maxerr_reload_B==0) and crossfade phase (maxerr_B_xfade==0), adopt the
+HYBRID bridge: warm-up-normalized crossfade for the regenerate transition plus
+per-block idempotent frequency re-statement across the K_SWAP boundary (re-send
+current input values every block at/after the swap; state converges within one
+block period) in place of the reset+latch-replay swap. If the crossfade phase
+itself regresses, fall all the way back to full per-block idempotent frequency
+re-statement and investment-freeze the live-crossfade bridge.
+
+--------------------------------------------------------------------------
+EXECUTOR CAVEAT (evidence-based, not a threshold reinterpretation): the emitted
+WAV/oracle evidence shows the residual click_max=0.247 is NOT a K_SWAP reset+latch
+transient. It is an engine-level single-sample dropout in the Cmajor FreqSine
+output (v1.0.3159), reproduced by the single-threaded oracle REF_A
+(maxerr_reload_A==0), pervasive across the A stream, the crossfade window, and the
+post-swap B stream (see ROOT_CAUSE_click.json). The §7 HYBRID bridge targets the
+K_SWAP boundary and therefore would ALSO not reach click_max ≤ 0.05 while these
+engine dropouts remain. This caveat is informational; the frozen gate verdict
+stands as FINAL FAIL.

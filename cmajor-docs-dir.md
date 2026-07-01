@@ -1,0 +1,459 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fcmajor-lang%2Fcmajor%2Ftree%2Fmain%2Fdocs
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ffiles%2Fdisambiguate&source=header-repo&source_repo=cmajor-lang%2Fcmajor
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "cmajor-lang" [ref=e70] [cursor=pointer]:
+              - /url: /cmajor-lang
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "cmajor" [ref=e73] [cursor=pointer]:
+                - /url: /cmajor-lang/cmajor
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fcmajor-lang%2Fcmajor
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 51" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fcmajor-lang%2Fcmajor
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "51" [ref=e84]
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fcmajor-lang%2Fcmajor
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "729 users starred this repository" [ref=e90]: "729"
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /cmajor-lang/cmajor
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 28" [ref=e99] [cursor=pointer]:
+                - /url: /cmajor-lang/cmajor/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "28" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests 1" [ref=e106] [cursor=pointer]:
+                - /url: /cmajor-lang/cmajor/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+                - generic "1" [ref=e110]
+            - listitem [ref=e111]:
+              - link "Actions" [ref=e112] [cursor=pointer]:
+                - /url: /cmajor-lang/cmajor/actions
+                - img [ref=e113]
+                - generic [ref=e115]: Actions
+            - listitem [ref=e116]:
+              - link "Projects" [ref=e117] [cursor=pointer]:
+                - /url: /cmajor-lang/cmajor/projects
+                - img [ref=e118]
+                - generic [ref=e120]: Projects
+            - listitem [ref=e121]:
+              - link "Security and quality" [ref=e122] [cursor=pointer]:
+                - /url: /cmajor-lang/cmajor/security
+                - img [ref=e123]
+                - generic [ref=e125]: Security and quality
+            - listitem [ref=e126]:
+              - link "Insights" [ref=e127] [cursor=pointer]:
+                - /url: /cmajor-lang/cmajor/pulse
+                - img [ref=e128]
+                - generic [ref=e130]: Insights
+      - generic [ref=e138]:
+        - generic [ref=e140]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]:
+                - heading "Collapse file tree" [level=2] [ref=e146]:
+                  - button "Collapse file tree" [expanded] [ref=e147] [cursor=pointer]:
+                    - img [ref=e148]
+                - heading "Files" [level=2] [ref=e151]
+              - generic [ref=e152]:
+                - button "main branch" [ref=e154] [cursor=pointer]:
+                  - generic [ref=e155]:
+                    - generic [ref=e157]:
+                      - img [ref=e159]
+                      - generic [ref=e162]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e164] [cursor=pointer]:
+                  - img [ref=e165]
+            - generic [ref=e168]:
+              - img [ref=e170]
+              - combobox "Go to file" [ref=e172]
+            - navigation "File Tree Navigation" [ref=e178]:
+              - tree "Files" [ref=e180]:
+                - treeitem "3rdParty" [level=1] [ref=e181]:
+                  - generic [ref=e182] [cursor=pointer]:
+                    - img [ref=e184]
+                    - generic [ref=e186]:
+                      - img [ref=e190]
+                      - generic [ref=e192]: 3rdParty
+                - treeitem "docs" [expanded] [level=1] [ref=e193]:
+                  - generic [ref=e194] [cursor=pointer]:
+                    - img [ref=e196]
+                    - generic [ref=e198]:
+                      - img [ref=e202]
+                      - generic [ref=e204]: docs
+                  - group "docs" [ref=e205]:
+                    - treeitem "Examples" [level=2] [ref=e206]:
+                      - generic [ref=e207] [cursor=pointer]:
+                        - img [ref=e212]
+                        - generic [ref=e214]:
+                          - img [ref=e218]
+                          - generic [ref=e220]: Examples
+                    - treeitem "Cmaj C++ API.md" [level=2] [ref=e221]:
+                      - generic [ref=e226] [cursor=pointer]:
+                        - img [ref=e229]
+                        - generic [ref=e231]: Cmaj C++ API.md
+                    - treeitem "Cmaj Examples.md" [level=2] [ref=e232]:
+                      - generic [ref=e237] [cursor=pointer]:
+                        - img [ref=e240]
+                        - generic [ref=e242]: Cmaj Examples.md
+                    - treeitem "Cmaj Inference.md" [level=2] [ref=e243]:
+                      - generic [ref=e248] [cursor=pointer]:
+                        - img [ref=e251]
+                        - generic [ref=e253]: Cmaj Inference.md
+                    - treeitem "Cmaj Language Guide.md" [level=2] [ref=e254]:
+                      - generic [ref=e259] [cursor=pointer]:
+                        - img [ref=e262]
+                        - generic [ref=e264]: Cmaj Language Guide.md
+                    - treeitem "Cmaj Licensing.md" [level=2] [ref=e265]:
+                      - generic [ref=e270] [cursor=pointer]:
+                        - img [ref=e273]
+                        - generic [ref=e275]: Cmaj Licensing.md
+                    - treeitem "Cmaj Patch Format.md" [level=2] [ref=e276]:
+                      - generic [ref=e281] [cursor=pointer]:
+                        - img [ref=e284]
+                        - generic [ref=e286]: Cmaj Patch Format.md
+                    - treeitem "Cmaj Quick Start.md" [level=2] [ref=e287]:
+                      - generic [ref=e292] [cursor=pointer]:
+                        - img [ref=e295]
+                        - generic [ref=e297]: Cmaj Quick Start.md
+                    - treeitem "Cmaj Script File Format.md" [level=2] [ref=e298]:
+                      - generic [ref=e303] [cursor=pointer]:
+                        - img [ref=e306]
+                        - generic [ref=e308]: Cmaj Script File Format.md
+                    - treeitem "Cmaj Test File Format.md" [level=2] [ref=e309]:
+                      - generic [ref=e314] [cursor=pointer]:
+                        - img [ref=e317]
+                        - generic [ref=e319]: Cmaj Test File Format.md
+                - treeitem "examples" [level=1] [ref=e320]:
+                  - generic [ref=e321] [cursor=pointer]:
+                    - img [ref=e323]
+                    - generic [ref=e325]:
+                      - img [ref=e329]
+                      - generic [ref=e331]: examples
+                - treeitem "include" [level=1] [ref=e332]:
+                  - generic [ref=e333] [cursor=pointer]:
+                    - img [ref=e335]
+                    - generic [ref=e337]:
+                      - img [ref=e341]
+                      - generic [ref=e343]: include
+                - treeitem "javascript" [level=1] [ref=e344]:
+                  - generic [ref=e345] [cursor=pointer]:
+                    - img [ref=e347]
+                    - generic [ref=e349]:
+                      - img [ref=e353]
+                      - generic [ref=e355]: javascript
+                - treeitem "modules" [level=1] [ref=e356]:
+                  - generic [ref=e357] [cursor=pointer]:
+                    - img [ref=e359]
+                    - generic [ref=e361]:
+                      - img [ref=e365]
+                      - generic [ref=e367]: modules
+                - treeitem "standard_library" [level=1] [ref=e368]:
+                  - generic [ref=e369] [cursor=pointer]:
+                    - img [ref=e371]
+                    - generic [ref=e373]:
+                      - img [ref=e377]
+                      - generic [ref=e379]: standard_library
+                - treeitem "tests" [level=1] [ref=e380]:
+                  - generic [ref=e381] [cursor=pointer]:
+                    - img [ref=e383]
+                    - generic [ref=e385]:
+                      - img [ref=e389]
+                      - generic [ref=e391]: tests
+                - treeitem "tools" [level=1] [ref=e392]:
+                  - generic [ref=e393] [cursor=pointer]:
+                    - img [ref=e395]
+                    - generic [ref=e397]:
+                      - img [ref=e401]
+                      - generic [ref=e403]: tools
+                - treeitem ".gitignore" [level=1] [ref=e404]:
+                  - generic [ref=e406] [cursor=pointer]:
+                    - img [ref=e409]
+                    - generic [ref=e411]: .gitignore
+                - treeitem ".gitmodules" [level=1] [ref=e412]:
+                  - generic [ref=e414] [cursor=pointer]:
+                    - img [ref=e417]
+                    - generic [ref=e419]: .gitmodules
+                - treeitem "CLA.md" [level=1] [ref=e420]:
+                  - generic [ref=e422] [cursor=pointer]:
+                    - img [ref=e425]
+                    - generic [ref=e427]: CLA.md
+                - treeitem "CLAUDE.md" [level=1] [ref=e428]:
+                  - generic [ref=e430] [cursor=pointer]:
+                    - img [ref=e433]
+                    - generic [ref=e435]: CLAUDE.md
+                - treeitem "CMakeLists.txt" [level=1] [ref=e436]:
+                  - generic [ref=e438] [cursor=pointer]:
+                    - img [ref=e441]
+                    - generic [ref=e443]: CMakeLists.txt
+                - treeitem "EULA.md" [level=1] [ref=e444]:
+                  - generic [ref=e446] [cursor=pointer]:
+                    - img [ref=e449]
+                    - generic [ref=e451]: EULA.md
+                - treeitem "LICENSE.md" [level=1] [ref=e452]:
+                  - generic [ref=e454] [cursor=pointer]:
+                    - img [ref=e457]
+                    - generic [ref=e459]: LICENSE.md
+                - treeitem "README.md" [level=1] [ref=e460]:
+                  - generic [ref=e462] [cursor=pointer]:
+                    - img [ref=e465]
+                    - generic [ref=e467]: README.md
+          - slider "Draggable pane splitter" [ref=e469]
+        - generic [ref=e472]:
+          - generic [ref=e476]:
+            - generic [ref=e478]:
+              - navigation "Breadcrumbs" [ref=e479]:
+                - heading "Breadcrumbs" [level=2] [ref=e480]
+                - list [ref=e481]:
+                  - listitem [ref=e482]:
+                    - link "cmajor" [ref=e483] [cursor=pointer]:
+                      - /url: /cmajor-lang/cmajor/tree/main
+              - generic [ref=e484]:
+                - text: /
+                - heading "docs" [level=1] [ref=e485]
+                - text: /
+              - button "Copy path" [ref=e486] [cursor=pointer]:
+                - img [ref=e487]
+            - generic [ref=e492]:
+              - heading "Directory actions" [level=2] [ref=e493]
+              - heading "More options" [level=2] [ref=e494]
+              - button "More options" [ref=e495] [cursor=pointer]:
+                - img [ref=e496]
+          - generic [ref=e498]:
+            - generic [ref=e500]:
+              - heading "Latest commit" [level=2] [ref=e501]
+              - generic [ref=e502]:
+                - generic [ref=e504]:
+                  - link "julianstorer" [ref=e505] [cursor=pointer]:
+                    - /url: /julianstorer
+                    - img "julianstorer" [ref=e506]
+                  - link "commits by julianstorer" [ref=e507] [cursor=pointer]:
+                    - /url: /cmajor-lang/cmajor/commits?author=julianstorer
+                    - text: julianstorer
+                - link "Added some constants to the docs" [ref=e511] [cursor=pointer]:
+                  - /url: /cmajor-lang/cmajor/commit/778b52151723f5eb0a43042363f4e9e33ad2e8a1
+              - generic [ref=e512]:
+                - generic [ref=e514]:
+                  - link "Commit 778b521" [ref=e515] [cursor=pointer]:
+                    - /url: /cmajor-lang/cmajor/commit/778b52151723f5eb0a43042363f4e9e33ad2e8a1
+                    - text: 778b521
+                  - text: ·
+                  - generic "Jul 31, 2025, 9:53 AM GMT+1" [ref=e516]: Jul 31, 202511 months ago
+                - generic [ref=e517]:
+                  - heading "History" [level=2] [ref=e518]
+                  - link "History" [ref=e519] [cursor=pointer]:
+                    - /url: /cmajor-lang/cmajor/commits/main/docs
+                    - generic [ref=e520]:
+                      - generic:
+                        - img
+                      - generic [ref=e521]: History
+            - generic [ref=e523]:
+              - heading "Folders and files" [level=2] [ref=e524]
+              - table "Folders and files" [ref=e525]:
+                - rowgroup [ref=e526]:
+                  - row "Name Last commit message Last commit date" [ref=e527]:
+                    - columnheader "Name" [ref=e528]
+                    - columnheader "Last commit message" [ref=e529]:
+                      - generic "Last commit message" [ref=e530]
+                    - columnheader "Last commit date" [ref=e531]:
+                      - generic "Last commit date" [ref=e532]
+                - rowgroup [ref=e533]:
+                  - row "parent directory Parent directory" [ref=e534]:
+                    - cell "parent directory Parent directory" [ref=e535]:
+                      - heading "parent directory" [level=3] [ref=e536]
+                      - link "Parent directory" [ref=e537] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/tree/main
+                        - generic [ref=e538]:
+                          - img [ref=e539]
+                          - text: ..
+                  - 'row "Examples, (Directory) Cmajor: Initial public commit Nov 14, 20224 years ago" [ref=e685]':
+                    - cell "Examples, (Directory)" [ref=e542]:
+                      - generic [ref=e543]:
+                        - img [ref=e544]
+                        - link "Examples, (Directory)" [ref=e549] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/tree/main/docs/Examples
+                          - text: Examples
+                    - 'cell "Cmajor: Initial public commit" [ref=e686]':
+                      - 'link "Cmajor: Initial public commit" [ref=e689] [cursor=pointer]':
+                        - /url: /cmajor-lang/cmajor/commit/ea627e5f611cff8eee4d00e0190e2506dc462b07
+                    - cell "Nov 14, 20224 years ago" [ref=e690]:
+                      - generic [ref=e553]: Nov 14, 20224 years ago
+                  - row "Cmaj C++ API.md, (File) Refactored the JUCE plugin classes to allow the plugin to locate a de… Apr 16, 20242 years ago" [ref=e691]:
+                    - cell "Cmaj C++ API.md, (File)" [ref=e556]:
+                      - generic [ref=e557]:
+                        - img [ref=e558]
+                        - link "Cmaj C++ API.md, (File)" [ref=e563] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/docs/Cmaj%20C%2B%2B%20API.md
+                          - text: Cmaj C++ API.md
+                    - cell "Refactored the JUCE plugin classes to allow the plugin to locate a de…" [ref=e692]:
+                      - link "Refactored the JUCE plugin classes to allow the plugin to locate a de…" [ref=e695] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/accd1ae388525a0d2d72093a91be274e313691af
+                    - cell "Apr 16, 20242 years ago" [ref=e696]:
+                      - generic [ref=e567]: Apr 16, 20242 years ago
+                  - row "Cmaj Examples.md, (File) Fix indentation level in docs Mar 11, 20242 years ago" [ref=e697]:
+                    - cell "Cmaj Examples.md, (File)" [ref=e570]:
+                      - generic [ref=e571]:
+                        - img [ref=e572]
+                        - link "Cmaj Examples.md, (File)" [ref=e577] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/docs/Cmaj%20Examples.md
+                          - text: Cmaj Examples.md
+                    - cell "Fix indentation level in docs" [ref=e698]:
+                      - link "Fix indentation level in docs" [ref=e701] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/fc4373d4813c6569bf7d5bd2aa5de1740702b962
+                    - cell "Mar 11, 20242 years ago" [ref=e702]:
+                      - generic [ref=e581]: Mar 11, 20242 years ago
+                  - row "Cmaj Inference.md, (File) Clarified the description of ONNX in the docs Mar 4, 20242 years ago" [ref=e703]:
+                    - cell "Cmaj Inference.md, (File)" [ref=e584]:
+                      - generic [ref=e585]:
+                        - img [ref=e586]
+                        - link "Cmaj Inference.md, (File)" [ref=e591] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/docs/Cmaj%20Inference.md
+                          - text: Cmaj Inference.md
+                    - cell "Clarified the description of ONNX in the docs" [ref=e704]:
+                      - link "Clarified the description of ONNX in the docs" [ref=e707] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/46606188a4a36ac35f10b3d8e2838212d9937540
+                    - cell "Mar 4, 20242 years ago" [ref=e708]:
+                      - generic [ref=e595]: Mar 4, 20242 years ago
+                  - row "Cmaj Language Guide.md, (File) Added some constants to the docs Jul 31, 202511 months ago" [ref=e709]:
+                    - cell "Cmaj Language Guide.md, (File)" [ref=e598]:
+                      - generic [ref=e599]:
+                        - img [ref=e600]
+                        - link "Cmaj Language Guide.md, (File)" [ref=e605] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/docs/Cmaj%20Language%20Guide.md
+                          - text: Cmaj Language Guide.md
+                    - cell "Added some constants to the docs" [ref=e710]:
+                      - link "Added some constants to the docs" [ref=e713] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/778b52151723f5eb0a43042363f4e9e33ad2e8a1
+                    - cell "Jul 31, 202511 months ago" [ref=e714]:
+                      - generic [ref=e609]: Jul 31, 202511 months ago
+                  - row "Cmaj Licensing.md, (File) Updated the license doc Apr 26, 2025last year" [ref=e715]:
+                    - cell "Cmaj Licensing.md, (File)" [ref=e612]:
+                      - generic [ref=e613]:
+                        - img [ref=e614]
+                        - link "Cmaj Licensing.md, (File)" [ref=e619] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/docs/Cmaj%20Licensing.md
+                          - text: Cmaj Licensing.md
+                    - cell "Updated the license doc" [ref=e716]:
+                      - link "Updated the license doc" [ref=e719] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/71094e9775251cc50b6fe9f1b218890dbf8e30d4
+                    - cell "Apr 26, 2025last year" [ref=e720]:
+                      - generic [ref=e623]: Apr 26, 2025last year
+                  - row "Cmaj Patch Format.md, (File) Fix typo, fix whitespace, rebuild embedded files Apr 8, 2025last year" [ref=e721]:
+                    - cell "Cmaj Patch Format.md, (File)" [ref=e626]:
+                      - generic [ref=e627]:
+                        - img [ref=e628]
+                        - link "Cmaj Patch Format.md, (File)" [ref=e633] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/docs/Cmaj%20Patch%20Format.md
+                          - text: Cmaj Patch Format.md
+                    - cell "Fix typo, fix whitespace, rebuild embedded files" [ref=e722]:
+                      - link "Fix typo, fix whitespace, rebuild embedded files" [ref=e725] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/79203aa44d031ea1dafff98201bee377c18b8528
+                    - cell "Apr 8, 2025last year" [ref=e726]:
+                      - generic [ref=e637]: Apr 8, 2025last year
+                  - row "Cmaj Quick Start.md, (File) Updated some docs about VScode commands Mar 8, 20242 years ago" [ref=e727]:
+                    - cell "Cmaj Quick Start.md, (File)" [ref=e640]:
+                      - generic [ref=e641]:
+                        - img [ref=e642]
+                        - link "Cmaj Quick Start.md, (File)" [ref=e647] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/docs/Cmaj%20Quick%20Start.md
+                          - text: Cmaj Quick Start.md
+                    - cell "Updated some docs about VScode commands" [ref=e728]:
+                      - link "Updated some docs about VScode commands" [ref=e731] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/3d60bb2271ecdfaac6cc0b0f6cded76f18ac97e4
+                    - cell "Mar 8, 20242 years ago" [ref=e732]:
+                      - generic [ref=e651]: Mar 8, 20242 years ago
+                  - row "Cmaj Script File Format.md, (File) Major refactoring of the patch API and GUI components Mar 21, 20233 years ago" [ref=e733]:
+                    - cell "Cmaj Script File Format.md, (File)" [ref=e654]:
+                      - generic [ref=e655]:
+                        - img [ref=e656]
+                        - link "Cmaj Script File Format.md, (File)" [ref=e661] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/docs/Cmaj%20Script%20File%20Format.md
+                          - text: Cmaj Script File Format.md
+                    - cell "Major refactoring of the patch API and GUI components" [ref=e734]:
+                      - link "Major refactoring of the patch API and GUI components" [ref=e737] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/d2175d05652d74ca5a15855feb90e573cd03b14b
+                    - cell "Mar 21, 20233 years ago" [ref=e738]:
+                      - generic [ref=e665]: Mar 21, 20233 years ago
+                  - row "Cmaj Test File Format.md, (File) Updated docs Jul 28, 202511 months ago" [ref=e739]:
+                    - cell "Cmaj Test File Format.md, (File)" [ref=e668]:
+                      - generic [ref=e669]:
+                        - img [ref=e670]
+                        - link "Cmaj Test File Format.md, (File)" [ref=e675] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/docs/Cmaj%20Test%20File%20Format.md
+                          - text: Cmaj Test File Format.md
+                    - cell "Updated docs" [ref=e740]:
+                      - link "Updated docs" [ref=e743] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/033b264703b67daa3889953f1a045aa3fccafa43
+                    - cell "Jul 28, 202511 months ago" [ref=e744]:
+                      - generic [ref=e679]: Jul 28, 202511 months ago
+  - alert [ref=e684]

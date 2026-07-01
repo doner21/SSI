@@ -1,0 +1,4 @@
+FALLBACK_EMITTED — G1A Swap-Boundary Click (shapeB-dualplan)
+Date: 2026-07-01
+Reason: FINAL FAIL — both Variant F and Variant G FAIL R3 (click_max=0.247058 > 0.05, ENGINE_INTRINSIC).
+Per PRE-REGISTRATION §6-§7, the verbatim HYBRID fallback is emitted in ATT_RUN_REPORT.md.

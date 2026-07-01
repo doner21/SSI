@@ -1,0 +1,19 @@
+G1B-v2 RE-PRE-REGISTRATION FREEZE (attempt 2, the one authorized disciplined redesign)
+Frozen by: Orchestrator (visible session, Opus 4.8 acting as piNen)
+Frozen at: 2026-06-30T05:52:40Z (before any v2 results existed)
+Method: content-hash freeze (no git commit, per git-safety policy)
+Cross-lab anti-rigging audit: PASS-LOCK-READY, conf 0.98 (artifacts/ANTIRIG-AUDIT-V2-V4PRO.md)
+
+LOCKED v2 ARTIFACTS — SHA-256:
+PRE-REGISTRATION-v2.md  c4042f913367b99b91f403f5a6c81d975de712c58dbd0f2ebb36b9d9a5c53307
+HARNESS-SPEC-v2.md      706534f57cd19346218b1b32e5a4e932e919af5e42047ef53ae6c83554323550
+
+v1 (attempt 1) record — still locked, untouched:
+PRE-REGISTRATION.md     afa823bc0017636be7e2953a1e8b8adb91ef4849c46d755e738cd12dd6fa2a2b
+HARNESS-SPEC.md         6dfd501e6c870ac98338f6526b0665ebf2d0f4bea731082b0cecb8eeefd5ed3b
+
+SEED_MASTER (v2, committed): 0x5551B_0002
+RULE: Phase-5 execution may NOT modify these files. The v2 verifier must re-confirm
+all four hashes before accepting results. This is the FINAL authorized attempt: if SSI
+does not beat the ablation AND the user-aware linter under this fair test, DESCOPE per
+Decision #5 — no further retries.

@@ -1,0 +1,758 @@
+{
+  "meta": {
+    "seedMaster": "0x5551b0002",
+    "N": 12,
+    "nValid": 12,
+    "node": "CORSAIRAI",
+    "timestampISO": "2026-06-30T06:55:54.175Z",
+    "configHash": "7597a02b702b6a795aef9181d2fc3660fcac499be74810c85ac624901f5be7f7",
+    "calibrated": {
+      "thetaSurprise": 0.2,
+      "kappa": 0.1,
+      "trainComposite": 0.7429761904761905
+    }
+  },
+  "holdout": {
+    "trainFamilies": [
+      "headroom-clip-risk",
+      "brightness-shift",
+      "routing-idiom-change"
+    ],
+    "heldOutFamilies": [
+      "inharmonic-artifact",
+      "added-latency",
+      "feedback-safety"
+    ],
+    "heldOutContextCombos": [
+      {
+        "axis": "grit",
+        "level": 2,
+        "context": {
+          "subdomain": "mastering",
+          "genre": "clean-pop"
+        }
+      },
+      {
+        "axis": "grit",
+        "level": 0,
+        "context": {
+          "genre": "lofi"
+        }
+      }
+    ]
+  },
+  "perUser": [
+    {
+      "userId": 0,
+      "ssi": {
+        "aq": 0.5,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.2,
+        "ms": 0.5
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 0.375,
+          "us": 0,
+          "voi": 1,
+          "composite": 0.55,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.25,
+          "us": 0,
+          "voi": 1,
+          "composite": 0.5,
+          "ms": 1
+        },
+        "loo-classifier": {
+          "aq": 0.4583333333333333,
+          "us": 0,
+          "voi": 1,
+          "composite": 0.5833333333333334,
+          "ms": 0
+        },
+        "coupled-ablation": {
+          "aq": 0.2916666666666667,
+          "us": 0.08333333333333333,
+          "voi": 1,
+          "composite": 0.5333333333333334,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    },
+    {
+      "userId": 1,
+      "ssi": {
+        "aq": 0.25,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.1,
+        "ms": 0.375
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.25,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.1,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 0.375,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.75,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.5,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.8,
+          "ms": 0
+        },
+        "loo-classifier": {
+          "aq": 0.75,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.9,
+          "ms": 1
+        },
+        "coupled-ablation": {
+          "aq": 0.625,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.8500000000000001,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    },
+    {
+      "userId": 2,
+      "ssi": {
+        "aq": 0.5,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.2,
+        "ms": 1
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 0.3333333333333333,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.13333333333333333,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "loo-classifier": {
+          "aq": 0.3333333333333333,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.13333333333333333,
+          "ms": 0
+        },
+        "coupled-ablation": {
+          "aq": 0.6666666666666666,
+          "us": 0.5714285714285714,
+          "voi": 0.5714285714285714,
+          "composite": 0.6095238095238095,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    },
+    {
+      "userId": 3,
+      "ssi": {
+        "aq": 0.25,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.1,
+        "ms": 0.6
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.25,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.1,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 0.25,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.1,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.35,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.74,
+          "ms": 1
+        },
+        "loo-classifier": {
+          "aq": 0.75,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.9,
+          "ms": 1
+        },
+        "coupled-ablation": {
+          "aq": 0.7166666666666667,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.8866666666666667,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    },
+    {
+      "userId": 4,
+      "ssi": {
+        "aq": 0.5,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.2,
+        "ms": 0.75
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 1,
+          "us": 1,
+          "voi": 1,
+          "composite": 1,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "loo-classifier": {
+          "aq": 1,
+          "us": 1,
+          "voi": 1,
+          "composite": 1,
+          "ms": 0
+        },
+        "coupled-ablation": {
+          "aq": 0.3412698412698413,
+          "us": 0.3333333333333333,
+          "voi": 0.5,
+          "composite": 0.4031746031746032,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    },
+    {
+      "userId": 5,
+      "ssi": {
+        "aq": 0.5,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.2,
+        "ms": 0.42857142857142855
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 1,
+          "us": 1,
+          "voi": 1,
+          "composite": 1,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "loo-classifier": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "coupled-ablation": {
+          "aq": 0.3055555555555556,
+          "us": 0.2,
+          "voi": 0.6,
+          "composite": 0.40222222222222226,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    },
+    {
+      "userId": 6,
+      "ssi": {
+        "aq": 0.5,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.2,
+        "ms": 0.6
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 0.5454545454545454,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.8181818181818182,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "loo-classifier": {
+          "aq": 0.5909090909090909,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.8363636363636364,
+          "ms": 0
+        },
+        "coupled-ablation": {
+          "aq": 1,
+          "us": 1,
+          "voi": 1,
+          "composite": 1,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    },
+    {
+      "userId": 7,
+      "ssi": {
+        "aq": 0.5,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.2,
+        "ms": 0.3
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.30952380952380953,
+          "us": 0.16666666666666666,
+          "voi": 1,
+          "composite": 0.5571428571428572,
+          "ms": 0
+        },
+        "loo-classifier": {
+          "aq": 0.5,
+          "us": 0.3,
+          "voi": 1,
+          "composite": 0.66,
+          "ms": 1
+        },
+        "coupled-ablation": {
+          "aq": 0.6428571428571428,
+          "us": 0.375,
+          "voi": 1,
+          "composite": 0.7321428571428572,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    },
+    {
+      "userId": 8,
+      "ssi": {
+        "aq": 0.5,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.2,
+        "ms": 0.5
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 0.625,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.8500000000000001,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.275,
+          "us": 0.125,
+          "voi": 1,
+          "composite": 0.535,
+          "ms": 1
+        },
+        "loo-classifier": {
+          "aq": 0.625,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.8500000000000001,
+          "ms": 0
+        },
+        "coupled-ablation": {
+          "aq": 0.65,
+          "us": 0.36363636363636365,
+          "voi": 1,
+          "composite": 0.7327272727272728,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    },
+    {
+      "userId": 9,
+      "ssi": {
+        "aq": 0.5,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.2,
+        "ms": 0.42857142857142855
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 0.2222222222222222,
+          "us": 0,
+          "voi": 1,
+          "composite": 0.48888888888888893,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.7083333333333333,
+          "us": 0.5,
+          "voi": 1,
+          "composite": 0.7833333333333333,
+          "ms": 0.8571428571428571
+        },
+        "loo-classifier": {
+          "aq": 0.2222222222222222,
+          "us": 0,
+          "voi": 1,
+          "composite": 0.48888888888888893,
+          "ms": 0
+        },
+        "coupled-ablation": {
+          "aq": 0.3055555555555556,
+          "us": 0.2,
+          "voi": 1,
+          "composite": 0.5622222222222223,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    },
+    {
+      "userId": 10,
+      "ssi": {
+        "aq": 0.5,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.2,
+        "ms": 0.6
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 0.5625,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.8250000000000001,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.4464285714285714,
+          "us": 0.5,
+          "voi": 1,
+          "composite": 0.6785714285714286,
+          "ms": 0
+        },
+        "loo-classifier": {
+          "aq": 0.5625,
+          "us": 1,
+          "voi": 1,
+          "composite": 0.8250000000000001,
+          "ms": 0
+        },
+        "coupled-ablation": {
+          "aq": 0.5714285714285714,
+          "us": 0.5714285714285714,
+          "voi": 1,
+          "composite": 0.7428571428571429,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    },
+    {
+      "userId": 11,
+      "ssi": {
+        "aq": 0.5,
+        "us": 0,
+        "voi": 0,
+        "composite": 0.2,
+        "ms": 0.42857142857142855
+      },
+      "baselines": {
+        "silent-route2": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "generic-linter": {
+          "aq": 0.3333333333333333,
+          "us": 0,
+          "voi": 1,
+          "composite": 0.5333333333333333,
+          "ms": 0
+        },
+        "user-heuristic": {
+          "aq": 0.6785714285714286,
+          "us": 0.6666666666666666,
+          "voi": 1,
+          "composite": 0.8047619047619048,
+          "ms": 1
+        },
+        "loo-classifier": {
+          "aq": 0.5,
+          "us": 0,
+          "voi": 0,
+          "composite": 0.2,
+          "ms": 0
+        },
+        "coupled-ablation": {
+          "aq": 1,
+          "us": 1,
+          "voi": 1,
+          "composite": 1,
+          "ms": 1
+        }
+      },
+      "ssiNegControlSpecificity": 1
+    }
+  ],
+  "tests": {
+    "perBaseline": [
+      {
+        "baseline": "silent-route2",
+        "meanDiff": 0,
+        "pValueRaw": 1,
+        "marginPass": false,
+        "exact": true
+      },
+      {
+        "baseline": "generic-linter",
+        "meanDiff": -0.4207281144781145,
+        "pValueRaw": 0.9990234375,
+        "marginPass": false,
+        "exact": true
+      },
+      {
+        "baseline": "user-heuristic",
+        "meanDiff": -0.33323412698412697,
+        "pValueRaw": 1,
+        "marginPass": false,
+        "exact": true
+      },
+      {
+        "baseline": "loo-classifier",
+        "meanDiff": -0.4480765993265994,
+        "pValueRaw": 0.9990234375,
+        "marginPass": false,
+        "exact": true
+      },
+      {
+        "baseline": "coupled-ablation",
+        "meanDiff": -0.5212391774891775,
+        "pValueRaw": 1,
+        "marginPass": false,
+        "exact": true
+      }
+    ],
+    "holm": {
+      "perBaseline": [
+        {
+          "baseline": "silent-route2",
+          "pRaw": 1,
+          "pAdjThreshold": 0.016666666666666666,
+          "reject": false
+        },
+        {
+          "baseline": "generic-linter",
+          "pRaw": 0.9990234375,
+          "pAdjThreshold": 0.01,
+          "reject": false
+        },
+        {
+          "baseline": "user-heuristic",
+          "pRaw": 1,
+          "pAdjThreshold": 0.025,
+          "reject": false
+        },
+        {
+          "baseline": "loo-classifier",
+          "pRaw": 0.9990234375,
+          "pAdjThreshold": 0.0125,
+          "reject": false
+        },
+        {
+          "baseline": "coupled-ablation",
+          "pRaw": 1,
+          "pAdjThreshold": 0.05,
+          "reject": false
+        }
+      ],
+      "allReject": false
+    },
+    "bootstrap": {
+      "silent-route2": {
+        "lo": 0,
+        "hi": 0
+      },
+      "generic-linter": {
+        "lo": -0.589023569023569,
+        "hi": -0.24723695286195294
+      },
+      "user-heuristic": {
+        "lo": -0.4804399801587301,
+        "hi": -0.1817450396825397
+      },
+      "loo-classifier": {
+        "lo": -0.6190306186868687,
+        "hi": -0.26830229377104386
+      },
+      "coupled-ablation": {
+        "lo": -0.6454595959595961,
+        "hi": -0.4012690746753247
+      }
+    }
+  },
+  "calibration": {
+    "ssi": {
+      "surfacingECE": 0.23405873520129108,
+      "abstentionECE": 0.24278684463262343
+    },
+    "silent-route2": {
+      "surfacingECE": 0.874251497005988,
+      "abstentionECE": 0.5089820359281437
+    },
+    "generic-linter": {
+      "surfacingECE": 0.45435713937977706,
+      "abstentionECE": 0.21868214789932336
+    },
+    "user-heuristic": {
+      "surfacingECE": 0.33897524718005856,
+      "abstentionECE": 0.2517124401654759
+    },
+    "loo-classifier": {
+      "surfacingECE": 0.561835968466575,
+      "abstentionECE": 0.25393202725765973
+    },
+    "coupled-ablation": {
+      "surfacingECE": 0.5762601265796746,
+      "abstentionECE": 0.2623851656863906
+    }
+  },
+  "mv": {
+    "pPPC": 0.998,
+    "ppcAdequate": false,
+    "dElpdHier": -0.05314789841327339,
+    "dElpdFac": 0.01729163712440429,
+    "seHier": 0.030206374801408226,
+    "material": false,
+    "verdict": "MV-FORCE-COUPLE"
+  },
+  "decision": {
+    "verdict": "FAIL-MV",
+    "rationale": "MV-FORCE-COUPLE fired and the forced remedy was not applied: G1B-MV rejects the factored independence assumption, so SSI's KL/EIG claims are invalid as stated.",
+    "action": "Add coupling / reduce KL-EIG claims; re-enter G1B; freeze Phase-2+ Route-1 work."
+  }
+}

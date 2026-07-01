@@ -1,0 +1,22 @@
+G1A PRE-REGISTRATION FREEZE (narrow first pass — concurrency spike)
+Frozen by: Orchestrator (visible session, Opus 4.8 acting as piNen seat) — deterministic non-LLM sha256 gate
+Frozen at: 2026-06-30T20:39:33Z (before any concurrency-spike result existed; g1a/_run/spike/ confirmed empty, 0 files; no trace.log / metrics.json present)
+Method: content-hash freeze (no git commit, per git-safety policy)
+
+LOCKED ARTIFACTS — SHA-256:
+PRE-REGISTRATION.md  de09b4bbdaf4e4b3e0905d5df97e84f8ad217f2b1c0a43c28f37901209d43586
+HARNESS-SPEC.md      7c6cd7ce5fc2529d469e3d93f21357c8a839eafa6881db9ab0b69bb02fb98023
+
+RULE: The shape's implement/measure phases may NOT modify these two files. Any change to a
+locked hash invalidates the pre-registration and the gate result. The shape's verify phase MUST
+re-confirm both SHA-256 hashes are unchanged before accepting any results, and MUST FAIL on any
+mismatch (tamper) or on any evidence that a locked threshold was tuned to fit the observed result.
+
+REFERENCE HASHES (pass these into the orchestrate task string for the shape's verify phase):
+  PRE-REGISTRATION.md=de09b4bbdaf4e4b3e0905d5df97e84f8ad217f2b1c0a43c28f37901209d43586
+  HARNESS-SPEC.md=7c6cd7ce5fc2529d469e3d93f21357c8a839eafa6881db9ab0b69bb02fb98023
+
+Note: this freeze is an ORCHESTRATOR-HELD inter-phase gate performed BEFORE invoking the
+`preregistered-concurrency-spike` shape, because the generated-shape phase model spawns exactly one
+LLM subagent per phase and has no deterministic non-LLM phase primitive. The shape's `verify` phase
+independently recomputes these hashes; `verdict` emits the verbatim pre-declared fallback on FAIL.

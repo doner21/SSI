@@ -1,0 +1,15 @@
+# tsan.suppressions — G1A TSan/Linux certification (FROZEN, HARNESS-SPEC §7.4)
+# Locked: suppresses ONLY races involving at least one access inside the prebuilt
+# libCmajPerformer.so (uninstrumented, opaque — PRE-REG §11, TSAN-REALITY-MEMO §2.2).
+#
+# NO host translation unit may appear in any suppression entry. The only allowed
+# form is the `race:libCmajPerformer.so` pattern. The control-race binary (T3a)
+# and the RT-probe binary (T3b) MUST still be caught with this file active —
+# proving the suppression is scoped, not a global mask.
+#
+# Verifier audit (PRE-REG §4.6 / §12.5): any suppression line matching a host TU
+# (engine_setup.cpp, swap.cpp, rt_render.cpp, crossfade.cpp, bg_compiler.cpp,
+# perturb.cpp, metrics.cpp, proof.cpp, main.cpp) = T2 FAIL. Any suppressed race in
+# tsan_main_run.log whose stack trace includes a host TU = T2 FAIL.
+
+race:libCmajPerformer.so

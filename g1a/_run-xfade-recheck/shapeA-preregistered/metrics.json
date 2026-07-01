@@ -1,0 +1,65 @@
+{
+  "run": "g1a/_run-xfade-recheck/shapeA-preregistered",
+  "pre_registration": {
+    "path": "C:/Users/doner/SSI/g1a/_run-xfade-recheck/PRE-REGISTRATION-XFADE-FIX.md",
+    "sha256_frozen": "7ba29f63bf55d219b9ac4701f50d8c9e8ef4a819fc273195e94cd420c33cd895",
+    "sha256_recomputed": "7ba29f63bf55d219b9ac4701f50d8c9e8ef4a819fc273195e94cd420c33cd895",
+    "sha256_match": true,
+    "artifact_modified": false
+  },
+  "locked_params_source": "PRE-REG \u00a74 (verbatim, unchanged): fs=48000, block=256, N_blocks=10000, K_PREPARE_START=100, K_XFADE_START=4000, W_XFADE=64, K_SWAP=4064, P_MEAS=512, R_repeats=5, seed_master=0x6121A0003, AMP=0.25, freq_palette=[220,330,440,550,660], EPS_XFADE=1e-6, S_CLICK=0.05, DLL v1.0.3159",
+  "dll_version_observed": "1.0.3159",
+  "schedule_sha256": "f23e805c7b680acb02bebe3b495d8ac32810eb989cf94f36f75b9a454171a4e0",
+  "gate_fidelity_fixes_applied": [
+    "R1: events_delivered_A_prepare compared with strict '==' to events scheduled in [K_PREPARE_START,K_PREPARE_DONE] (was parent '>=')",
+    "R1: events_delivered_A_prepare now measures the WINDOWED delivered count (was parent whole-run total; required for the '==' to be meaningful per \u00a75)",
+    "R3: click_max<=S_CLICK moved INSIDE R3_pass (was omitted by parent)",
+    "R3: maxerr_reload_A / maxerr_B_xfade / maxerr_reload_B compared with literal '==0' per \u00a75 (tightened from parent '<=1e-6'; strengthening, never a relaxation)"
+  ],
+  "certification_note": "MEASURE phase re-check (fresh clean rebuild): both variants' NORMAL /O2 exe AND ASan exe ran directly to completion (normal exe was NOT Device-Guard-blocked this run; exit code 1 = FINAL FAIL verdict, not a crash). Run order per run.bat: ASan exe -> asan_run.log, then normal exe ingests it and writes the certifying metrics.json. ASan sanitizer reports: 0 (ASAN_RUN_CLEAN_EXIT) for both variants; no AddressSanitizer/heap/use-after/leak lines. All R1-R4 numbers bit-identical between the normal and ASan builds and between this fresh rebuild and the implement phase.",
+  "variants": {
+    "A": {
+      "definition": "PRE-REG \u00a73 Variant A \u2014 drop reset() in xfade init at k==K_XFADE_START; use fresh worker-created B directly; oracle unchanged.",
+      "R1_pass": true, "R2_pass": true, "R3_pass": false, "R4_pass": true,
+      "asan_clean": true, "proof_complete": true,
+      "maxerr_reload_A": 0.0,
+      "mix_err": 7.450580596923828e-09,
+      "maxerr_B_xfade": 0.49958696961402893,
+      "maxerr_reload_B": 0.0,
+      "rel_expected_Bpost": 1.0,
+      "rel_expected_Apre": 0.9938539317364408,
+      "click_max": 0.24705768844796694,
+      "final_verdict": "FAIL",
+      "metrics_json": "variantA/artifacts/metrics.json"
+    },
+    "B": {
+      "definition": "PRE-REG \u00a73 Variant B \u2014 keep live reset() in xfade init; add reset() to renderRefBxfade before the initial latch (align oracle to implementation).",
+      "R1_pass": true, "R2_pass": true, "R3_pass": false, "R4_pass": true,
+      "asan_clean": true, "proof_complete": true,
+      "maxerr_reload_A": 0.0,
+      "mix_err": 7.450580596923828e-09,
+      "maxerr_B_xfade": 0.49958696961402893,
+      "maxerr_reload_B": 0.0,
+      "rel_expected_Bpost": 1.0,
+      "rel_expected_Apre": 0.9938539317364408,
+      "click_max": 0.24705768844796694,
+      "final_verdict": "FAIL",
+      "metrics_json": "variantB/artifacts/metrics.json"
+    }
+  },
+  "falsification_evidence": {
+    "hypothesis_under_test": "reset()-produces-different-phase-than-fresh + oracle-construction mismatch",
+    "result": "FALSIFIED",
+    "oracle_REF_Bxfade_wav_sha256_variantA": "0338bb277e2405ec8400d9f644dc9cd47b481d26a58e3cf9135206a805fe9ccd",
+    "oracle_REF_Bxfade_wav_sha256_variantB": "0338bb277e2405ec8400d9f644dc9cd47b481d26a58e3cf9135206a805fe9ccd",
+    "oracle_wavs_identical": true,
+    "live_B_xfade_wav_sha256_variantA": "1fdb9b0f49c94b9a3bd3557e0dda0f68d3264da154dd8ef0104e6bbd6d1a7a24",
+    "live_B_xfade_wav_sha256_variantB": "1fdb9b0f49c94b9a3bd3557e0dda0f68d3264da154dd8ef0104e6bbd6d1a7a24",
+    "live_wavs_identical": true,
+    "interpretation": "reset() is a phase no-op on a freshly-created, never-advanced Cmajor performer: toggling reset() on either the oracle (Variant B) or the live path (Variant A) leaves output byte-identical. The maxerr_B_xfade=0.4996 (~2*AMP, anti-phase) divergence is therefore NOT caused by reset()-vs-fresh. Both pre-registered variants are inert w.r.t. the actual root cause and both FAIL R3 identically (bit-for-bit the parent value)."
+  },
+  "verdict_rule": "PRE-REG \u00a76: FINAL PASS iff (Variant A PASS) OR (Variant B PASS). Both FAIL.",
+  "final_verdict": "FINAL FAIL",
+  "passing_variant": null,
+  "fallback_emitted": "PRE-REG \u00a77 (verbatim) \u2014 see FALLBACK_XFADE_FIX.md"
+}

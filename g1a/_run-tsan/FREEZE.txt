@@ -1,0 +1,39 @@
+G1A TSan/Linux CERTIFICATION — PRE-REGISTRATION FREEZE
+=======================================================
+
+Frozen-by:  ORCHESTRATOR (piNen seat), deterministic non-LLM sha256 gate
+Frozen-at:  2026-07-01T00:02Z  (before any spike result existed; spike/ empty at freeze)
+Run dir:    C:/Users/doner/SSI/g1a/_run-tsan/
+
+LOCKED ARTIFACTS (SHA-256):
+  PRE-REGISTRATION.md  ca70504c6330406f1236df091b71240974fb8fb9a636748a90a2e4d55a3bd465
+  HARNESS-SPEC.md      9c368c7d2e9e6b94b92a38d9420f05366b90101454d13f02dacaf9772c889988
+
+GROUNDING CONTEXT (NOT part of the frozen gate; informational):
+  RESEARCH-MEMO-FEASIBILITY.md  (Linux Cmajor runtime libCmajPerformer.so v1.0.3159 obtainable — HIGH confidence)
+  TSAN-REALITY-MEMO.md          (-fsanitize=thread reality, suppressions discipline, host-side-only scope)
+
+PLANNING PROVENANCE:
+  Authored via the adversarial-synthesis planning shape `dual-plan-synthesis-execute-verify`
+  (selected as a transparent repair after `composable-pipeline` aborted on a malformed
+  composed-phase model id — see bug note + ledger). Two divergent planners (GLM-5.2 / GPT-5.5)
+  -> Opus synthesis -> DeepSeek executor authored the docs -> GPT-5.5 verifier gated. PASS.
+
+FALSIFIABLE QUESTION (this pass):
+  Can the SAME concurrency + reload-bridge harness logic be cross-built for Linux x64 and run
+  under ThreadSanitizer (-fsanitize=thread) with ZERO data-race reports across BOTH the
+  concurrent two-performer run AND the live hot-swap/crossfade — certifying the (host-side)
+  race-freedom that Windows (no TSan) could only approximate?
+
+LOCKED METRICS: T1 clean Linux TSan build (+ feasibility sub-gate); T2 TSAN-CLEAN (zero
+  non-suppressed races/warnings, zero host-file suppressions); T3a detector-liveness (planted
+  control race caught WITH suppressions active); T3b RT-thread-coverage probe; T4 functional
+  equivalence + completeness (spectral + bounded-prefix cross-platform, within-Linux determinism,
+  blocks + swap-at-locked-block). Pre-declared two-branch fallback (genuine race -> investment-freeze
+  -> silence-boundary; runtime unobtainable -> UNCERTIFIED, escalate).
+
+NO-MODIFY RULE:
+  These two files are LOCKED and may NOT be edited after this freeze. The verifier MUST FAIL the
+  run if either SHA-256 changes, or if any pre-registered threshold is tuned post-lock. No result,
+  no measured number, no implementation code exists in either file at freeze time. spike/ was empty
+  at freeze. All spike artifacts go under g1a/_run-tsan/spike/ only.

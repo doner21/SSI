@@ -1,0 +1,48 @@
+# ── Build artifacts (MSVC / Cmajor spikes) ──────────────────────
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+
+# ── Audio render proofs (regenerable; large) ────────────────────
+*.wav
+
+# ── Generated / local runtime state ─────────────────────────────
+graphify-out/
+agent/
+.playwright-mcp/
+nul
+
+# ── Logs & OS cruft ─────────────────────────────────────────────
+*.log
+.DS_Store
+Thumbs.db
+
+# ── Embedded Cmajor SDK (external, not ours) ───────────────────
+g1a/_run/cmajor-headers/
+g1a/_run/cmajor-sdk/
+cmajor/
+
+# ── More native binaries ───────────────────────────────────────
+*.so
+*.so.*
+*.a
+*.dylib
+*.lib
+
+# ── Linux objects, installers, extracted SDK bin, tsan ELF ─────
+*.o
+*.msi
+g1a/_run/cmajor-bin/
+g1a/_run-tsan/spike/g1a_tsan_host
+g1a/_run-tsan/spike/g1a_tsan_rtprobe
+
+# ── Archives, help files, remaining tsan ELF ───────────────────
+*.zip
+*.chm
+g1a/_run-tsan/spike/tsan_control_race
+
+*.7z

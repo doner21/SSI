@@ -1,0 +1,29 @@
+G1A RELOAD-BRIDGE — PRE-REGISTRATION FREEZE
+============================================
+
+Frozen-by:  ORCHESTRATOR (piNen seat), deterministic non-LLM sha256 gate
+Frozen-at:  2026-06-30T21:53Z  (before any spike result existed; spike/ empty at freeze)
+Run dir:    C:/Users/doner/SSI/g1a/_run-reload/
+
+LOCKED ARTIFACTS (SHA-256):
+  PRE-REGISTRATION.md  3671e12b754c8bb170b3f6c716ba2278034ca036c4c5bb0134837ecefc07131b
+  HARNESS-SPEC.md      4b7179fc857d09c65a23722555aed60af570b708ea2d22d2643f96af47779331
+
+FALSIFIABLE QUESTION (this pass):
+  Can a LIVE Cmajor performer (A) be replaced by a freshly BACKGROUND-JIT-COMPILED
+  performer (B, a different patch built on a worker thread while A is live), swapped
+  into the running audio thread via a lock-free/atomic active-index handoff at a
+  pre-committed block boundary, and CROSSFADED A->B live, click-free, with safe
+  ref-count release, ASan-clean, and bit-exact determinism?
+  (regenerate-and-reload bridge = build-plan load-bearing mechanism #1)
+
+NO-MODIFY RULE:
+  These two files are LOCKED. They may NOT be edited after this freeze. The verifier
+  MUST FAIL the run if either SHA-256 changes, or if any pre-registered threshold is
+  tuned post-lock. No result, no measured number, no code exists in either file at
+  freeze time. spike/ was empty at freeze. All spike artifacts go under
+  g1a/_run-reload/spike/ only.
+
+PROOF-OF-INTEGRITY:
+  Independent verifier (DeepSeek V4-Pro) re-hashes both files and recomputes R1-R4
+  from the proof artifact, not from the implementer narrative. Generator (Opus) != certifier.

@@ -1,0 +1,27 @@
+{
+  "F_full": {
+    "dropouts": 3955,
+    "samples": 2560000
+  },
+  "F_REF_A": {
+    "dropouts": 799,
+    "samples": 1040384
+  },
+  "F_REF_Bpost": {
+    "dropouts": 3161,
+    "samples": 1519616
+  },
+  "G_full": {
+    "dropouts": 3864,
+    "samples": 2560000
+  },
+  "click_argmax": {
+    "value": 0.24705768844796694,
+    "sample": 858227,
+    "block": 3352,
+    "offset": 115,
+    "is_K_SWAP": false
+  },
+  "first_event_block": 2481,
+  "note": "dropouts begin after first freq change (block 2481->440Hz); reproduced in single-threaded oracle REF_A => engine/DLL artifact, not swap/reset"
+}

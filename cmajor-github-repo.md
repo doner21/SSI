@@ -1,0 +1,698 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fcmajor-lang%2Fcmajor
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=cmajor-lang%2Fcmajor
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "cmajor-lang" [ref=e70] [cursor=pointer]:
+            - /url: /cmajor-lang
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "cmajor" [ref=e73] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fcmajor-lang%2Fcmajor
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 51" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fcmajor-lang%2Fcmajor
+                - img [ref=e82]
+                - text: Fork
+                - generic "51" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fcmajor-lang%2Fcmajor
+                - img [ref=e88]
+                - text: Star
+                - generic "729 users starred this repository" [ref=e90]: "729"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 28" [ref=e99] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "28" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 1" [ref=e106] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "1" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Security and quality" [ref=e122] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/security
+              - img [ref=e123]
+              - generic [ref=e125]: Security and quality
+          - listitem [ref=e126]:
+            - link "Insights" [ref=e127] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/pulse
+              - img [ref=e128]
+              - generic [ref=e130]: Insights
+    - generic [ref=e143]:
+      - heading "cmajor-lang/cmajor" [level=1] [ref=e145]
+      - generic [ref=e146]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - button "main branch" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]:
+                  - generic [ref=e156]:
+                    - img [ref=e158]
+                    - generic [ref=e161]: main
+                  - generic:
+                    - img
+              - generic [ref=e162]:
+                - link "1 Branch" [ref=e163] [cursor=pointer]:
+                  - /url: /cmajor-lang/cmajor/branches
+                  - generic [ref=e164]:
+                    - generic:
+                      - img
+                    - generic [ref=e166]:
+                      - strong [ref=e167]: "1"
+                      - text: Branch
+                - link "100 Tags" [ref=e168] [cursor=pointer]:
+                  - /url: /cmajor-lang/cmajor/tags
+                  - generic [ref=e169]:
+                    - generic:
+                      - img
+                    - generic [ref=e171]:
+                      - strong [ref=e172]: "100"
+                      - text: Tags
+            - generic [ref=e173]:
+              - generic [ref=e177]:
+                - img [ref=e179]
+                - combobox "Go to file" [ref=e181]
+              - button "Code" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]:
+                  - generic:
+                    - img
+                  - generic [ref=e184]: Code
+                  - generic:
+                    - img
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - heading "Folders and files" [level=2] [ref=e187]
+              - table "Folders and files" [ref=e188]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e189]:
+                  - row "Latest commit cesaref commits by cesaref Added test to resolve issue with external structs not always being ex… Open commit details Commit bc85eb4 · Jun 16, 20262 weeks ago History 1,019 Commits" [ref=e190]:
+                    - cell "Latest commit cesaref commits by cesaref Added test to resolve issue with external structs not always being ex… Open commit details Commit bc85eb4 · Jun 16, 20262 weeks ago History 1,019 Commits" [ref=e191]:
+                      - generic [ref=e192]:
+                        - heading "Latest commit" [level=2] [ref=e193]
+                        - generic [ref=e194]:
+                          - generic [ref=e196]:
+                            - link "cesaref" [ref=e197] [cursor=pointer]:
+                              - /url: /cesaref
+                              - img "cesaref" [ref=e198]
+                            - link "commits by cesaref" [ref=e199] [cursor=pointer]:
+                              - /url: /cmajor-lang/cmajor/commits?author=cesaref
+                              - text: cesaref
+                          - generic [ref=e200]:
+                            - link "Added test to resolve issue with external structs not always being ex…" [ref=e203] [cursor=pointer]:
+                              - /url: /cmajor-lang/cmajor/commit/bc85eb41b79f115993d86389d6d584b6e157aa09
+                            - button "Open commit details" [ref=e204] [cursor=pointer]:
+                              - img [ref=e205]
+                        - generic [ref=e207]:
+                          - generic [ref=e209]:
+                            - link "Commit bc85eb4" [ref=e210] [cursor=pointer]:
+                              - /url: /cmajor-lang/cmajor/commit/bc85eb41b79f115993d86389d6d584b6e157aa09
+                              - text: bc85eb4
+                            - text: ·
+                            - generic "Jun 16, 2026, 11:46 AM GMT+1" [ref=e211]: Jun 16, 20262 weeks ago
+                          - generic [ref=e212]:
+                            - heading "History" [level=2] [ref=e213]
+                            - link "1,019 Commits" [ref=e214] [cursor=pointer]:
+                              - /url: /cmajor-lang/cmajor/commits/main/
+                              - generic [ref=e215]:
+                                - generic:
+                                  - img
+                                - generic [ref=e216]: 1,019 Commits
+                  - row "3rdParty, (Directory) llvm Sep 12, 20259 months ago" [ref=e745]:
+                    - cell "3rdParty, (Directory)" [ref=e218]:
+                      - generic [ref=e219]:
+                        - img [ref=e220]
+                        - link "3rdParty, (Directory)" [ref=e225] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/tree/main/3rdParty
+                          - text: 3rdParty
+                    - cell "llvm" [ref=e746]:
+                      - link "llvm" [ref=e749] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/85333f5ad7c940807eb4748bf2969aa6068ae135
+                    - cell "Sep 12, 20259 months ago" [ref=e750]:
+                      - generic [ref=e229]: Sep 12, 20259 months ago
+                  - row "docs, (Directory) Added some constants to the docs Jul 31, 202511 months ago" [ref=e751]:
+                    - cell "docs, (Directory)" [ref=e232]:
+                      - generic [ref=e233]:
+                        - img [ref=e234]
+                        - link "docs, (Directory)" [ref=e239] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/tree/main/docs
+                          - text: docs
+                    - cell "Added some constants to the docs" [ref=e752]:
+                      - link "Added some constants to the docs" [ref=e755] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/778b52151723f5eb0a43042363f4e9e33ad2e8a1
+                    - cell "Jul 31, 202511 months ago" [ref=e756]:
+                      - generic [ref=e243]: Jul 31, 202511 months ago
+                  - row "examples, (Directory) Fix compiler warning May 11, 2026last month" [ref=e757]:
+                    - cell "examples, (Directory)" [ref=e246]:
+                      - generic [ref=e247]:
+                        - img [ref=e248]
+                        - link "examples, (Directory)" [ref=e253] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/tree/main/examples
+                          - text: examples
+                    - cell "Fix compiler warning" [ref=e758]:
+                      - link "Fix compiler warning" [ref=e761] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/83bcca1549ab2cc741f564aff4c41652ae3512fc
+                    - cell "May 11, 2026last month" [ref=e762]:
+                      - generic [ref=e257]: May 11, 2026last month
+                  - row "include, (Directory) choc Jun 3, 2026last month" [ref=e763]:
+                    - cell "include, (Directory)" [ref=e260]:
+                      - generic [ref=e261]:
+                        - img [ref=e262]
+                        - link "include, (Directory)" [ref=e267] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/tree/main/include
+                          - text: include
+                    - cell "choc" [ref=e764]:
+                      - link "choc" [ref=e767] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/6cec2c986d0de19d0b823c829533d77081c47593
+                    - cell "Jun 3, 2026last month" [ref=e768]:
+                      - generic [ref=e271]: Jun 3, 2026last month
+                  - row "javascript, (Directory) Added strict JSdoc comments to public facing javascript Apr 27, 20262 months ago" [ref=e769]:
+                    - cell "javascript, (Directory)" [ref=e274]:
+                      - generic [ref=e275]:
+                        - img [ref=e276]
+                        - link "javascript, (Directory)" [ref=e281] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/tree/main/javascript
+                          - text: javascript
+                    - cell "Added strict JSdoc comments to public facing javascript" [ref=e770]:
+                      - link "Added strict JSdoc comments to public facing javascript" [ref=e773] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/3f124276ccc101471543f226e3114894ae02327d
+                    - cell "Apr 27, 20262 months ago" [ref=e774]:
+                      - generic [ref=e285]: Apr 27, 20262 months ago
+                  - row "modules, (Directory) Added test to resolve issue with external structs not always being ex… Jun 16, 20262 weeks ago" [ref=e775]:
+                    - cell "modules, (Directory)" [ref=e288]:
+                      - generic [ref=e289]:
+                        - img [ref=e290]
+                        - link "modules, (Directory)" [ref=e295] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/tree/main/modules
+                          - text: modules
+                    - cell "Added test to resolve issue with external structs not always being ex…" [ref=e776]:
+                      - link "Added test to resolve issue with external structs not always being ex…" [ref=e779] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/bc85eb41b79f115993d86389d6d584b6e157aa09
+                    - cell "Jun 16, 20262 weeks ago" [ref=e780]:
+                      - generic [ref=e299]: Jun 16, 20262 weeks ago
+                  - row "standard_library, (Directory) Update the midi processing logic to process aftertouch correctly, and… Dec 19, 20256 months ago" [ref=e781]:
+                    - cell "standard_library, (Directory)" [ref=e302]:
+                      - generic [ref=e303]:
+                        - img [ref=e304]
+                        - link "standard_library, (Directory)" [ref=e309] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/tree/main/standard_library
+                          - text: standard_library
+                    - cell "Update the midi processing logic to process aftertouch correctly, and…" [ref=e782]:
+                      - link "Update the midi processing logic to process aftertouch correctly, and…" [ref=e785] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/f9d44ccf46ce1cd6fcfba299c35aa121227b7749
+                    - cell "Dec 19, 20256 months ago" [ref=e786]:
+                      - generic [ref=e313]: Dec 19, 20256 months ago
+                  - row "tests, (Directory) Added test to resolve issue with external structs not always being ex… Jun 16, 20262 weeks ago" [ref=e787]:
+                    - cell "tests, (Directory)" [ref=e316]:
+                      - generic [ref=e317]:
+                        - img [ref=e318]
+                        - link "tests, (Directory)" [ref=e323] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/tree/main/tests
+                          - text: tests
+                    - cell "Added test to resolve issue with external structs not always being ex…" [ref=e788]:
+                      - link "Added test to resolve issue with external structs not always being ex…" [ref=e791] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/bc85eb41b79f115993d86389d6d584b6e157aa09
+                    - cell "Jun 16, 20262 weeks ago" [ref=e792]:
+                      - generic [ref=e327]: Jun 16, 20262 weeks ago
+                  - row "tools, (Directory) Updated embedded files Jun 3, 2026last month" [ref=e793]:
+                    - cell "tools, (Directory)" [ref=e330]:
+                      - generic [ref=e331]:
+                        - img [ref=e332]
+                        - link "tools, (Directory)" [ref=e337] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/tree/main/tools
+                          - text: tools
+                    - cell "Updated embedded files" [ref=e794]:
+                      - link "Updated embedded files" [ref=e797] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/672070a5979f47b5f25c30f5c108a200067296f5
+                    - cell "Jun 3, 2026last month" [ref=e798]:
+                      - generic [ref=e341]: Jun 3, 2026last month
+                  - row ".gitignore, (File) Added a CLAUDE.md Jun 28, 2025last year" [ref=e799]:
+                    - cell ".gitignore, (File)" [ref=e344]:
+                      - generic [ref=e345]:
+                        - img [ref=e346]
+                        - link ".gitignore, (File)" [ref=e351] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "Added a CLAUDE.md" [ref=e800]:
+                      - link "Added a CLAUDE.md" [ref=e803] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/b8ce5a522a476c408581ac9d04946a7131675355
+                    - cell "Jun 28, 2025last year" [ref=e804]:
+                      - generic [ref=e355]: Jun 28, 2025last year
+                  - row ".gitmodules, (File) Add clap support for building VST3s using the clap-wrapper May 23, 20242 years ago" [ref=e805]:
+                    - cell ".gitmodules, (File)" [ref=e358]:
+                      - generic [ref=e359]:
+                        - img [ref=e360]
+                        - link ".gitmodules, (File)" [ref=e365] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/.gitmodules
+                          - text: .gitmodules
+                    - cell "Add clap support for building VST3s using the clap-wrapper" [ref=e806]:
+                      - link "Add clap support for building VST3s using the clap-wrapper" [ref=e809] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/15624b3a588e0b4ccecc0a7abea4964d8c391242
+                    - cell "May 23, 20242 years ago" [ref=e810]:
+                      - generic [ref=e369]: May 23, 20242 years ago
+                  - row "CLA.md, (File) Added a contributor license agreement doc May 31, 20242 years ago" [ref=e811]:
+                    - cell "CLA.md, (File)" [ref=e372]:
+                      - generic [ref=e373]:
+                        - img [ref=e374]
+                        - link "CLA.md, (File)" [ref=e379] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/CLA.md
+                          - text: CLA.md
+                    - cell "Added a contributor license agreement doc" [ref=e812]:
+                      - link "Added a contributor license agreement doc" [ref=e815] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/528887fd6769ebe75908f028fcbc281f5b765443
+                    - cell "May 31, 20242 years ago" [ref=e816]:
+                      - generic [ref=e383]: May 31, 20242 years ago
+                  - row "CLAUDE.md, (File) Added a CLAUDE.md Jun 28, 2025last year" [ref=e817]:
+                    - cell "CLAUDE.md, (File)" [ref=e386]:
+                      - generic [ref=e387]:
+                        - img [ref=e388]
+                        - link "CLAUDE.md, (File)" [ref=e393] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/CLAUDE.md
+                          - text: CLAUDE.md
+                    - cell "Added a CLAUDE.md" [ref=e818]:
+                      - link "Added a CLAUDE.md" [ref=e821] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/b8ce5a522a476c408581ac9d04946a7131675355
+                    - cell "Jun 28, 2025last year" [ref=e822]:
+                      - generic [ref=e397]: Jun 28, 2025last year
+                  - row "CMakeLists.txt, (File) Update build so that webkit version is more flexible Aug 27, 202510 months ago" [ref=e823]:
+                    - cell "CMakeLists.txt, (File)" [ref=e400]:
+                      - generic [ref=e401]:
+                        - img [ref=e402]
+                        - link "CMakeLists.txt, (File)" [ref=e407] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/CMakeLists.txt
+                          - text: CMakeLists.txt
+                    - cell "Update build so that webkit version is more flexible" [ref=e824]:
+                      - link "Update build so that webkit version is more flexible" [ref=e827] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/c0a380e7b367dd6e08d95d49db751571f38ecff0
+                    - cell "Aug 27, 202510 months ago" [ref=e828]:
+                      - generic [ref=e411]: Aug 27, 202510 months ago
+                  - row "EULA.md, (File) Published the full compiler source code, and updated license terms to… Mar 1, 20242 years ago" [ref=e829]:
+                    - cell "EULA.md, (File)" [ref=e414]:
+                      - generic [ref=e415]:
+                        - img [ref=e416]
+                        - link "EULA.md, (File)" [ref=e421] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/EULA.md
+                          - text: EULA.md
+                    - cell "Published the full compiler source code, and updated license terms to…" [ref=e830]:
+                      - link "Published the full compiler source code, and updated license terms to…" [ref=e833] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/fca231d743531762ed34878c31bda456f81b40ca
+                    - cell "Mar 1, 20242 years ago" [ref=e834]:
+                      - generic [ref=e425]: Mar 1, 20242 years ago
+                  - row "LICENSE.md, (File) Added a clarification to LICENSE.md Apr 23, 20262 months ago" [ref=e835]:
+                    - cell "LICENSE.md, (File)" [ref=e428]:
+                      - generic [ref=e429]:
+                        - img [ref=e430]
+                        - link "LICENSE.md, (File)" [ref=e435] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/LICENSE.md
+                          - text: LICENSE.md
+                    - cell "Added a clarification to LICENSE.md" [ref=e836]:
+                      - link "Added a clarification to LICENSE.md" [ref=e839] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/11fa27fab3dcdcd5ccbd7518e83a0cc92041e1b5
+                    - cell "Apr 23, 20262 months ago" [ref=e840]:
+                      - generic [ref=e439]: Apr 23, 20262 months ago
+                  - row "README.md, (File) Fixed a typo in the readme Mar 29, 20242 years ago" [ref=e841]:
+                    - cell "README.md, (File)" [ref=e442]:
+                      - generic [ref=e443]:
+                        - img [ref=e444]
+                        - link "README.md, (File)" [ref=e449] [cursor=pointer]:
+                          - /url: /cmajor-lang/cmajor/blob/main/README.md
+                          - text: README.md
+                    - cell "Fixed a typo in the readme" [ref=e842]:
+                      - link "Fixed a typo in the readme" [ref=e845] [cursor=pointer]:
+                        - /url: /cmajor-lang/cmajor/commit/7e7388e9fae6358e26a100f2b498d7216eb172f8
+                    - cell "Mar 29, 20242 years ago" [ref=e846]:
+                      - generic [ref=e453]: Mar 29, 20242 years ago
+            - generic [ref=e456]:
+              - generic [ref=e457]:
+                - heading "Repository files navigation" [level=2] [ref=e458]
+                - navigation "Repository files" [ref=e459]:
+                  - list [ref=e460]:
+                    - listitem [ref=e461]:
+                      - link "README" [ref=e462] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e464]
+                        - generic [ref=e466]: README
+                    - listitem [ref=e467]:
+                      - link "License" [ref=e468] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e470]
+                        - generic [ref=e472]: License
+                - button "Outline" [ref=e473] [cursor=pointer]:
+                  - img [ref=e474]
+              - article [ref=e477]:
+                - generic [ref=e478]:
+                  - heading "The Cmajor Language" [level=1] [ref=e479]
+                  - 'link "Permalink: The Cmajor Language" [ref=e480] [cursor=pointer]':
+                    - /url: "#the-cmajor-language"
+                    - img [ref=e481]
+                - paragraph [ref=e483]: Cmajor is a programming language for writing fast, portable audio software.
+                - paragraph [ref=e484]:
+                  - text: You've heard of C, C++, C#, objective-C... well, C
+                  - emphasis [ref=e485]: major
+                  - text: is a C-family language designed specifically for writing DSP signal processing code.
+                - generic [ref=e486]:
+                  - heading "Project goals" [level=2] [ref=e487]
+                  - 'link "Permalink: Project goals" [ref=e488] [cursor=pointer]':
+                    - /url: "#project-goals"
+                    - img [ref=e489]
+                - paragraph [ref=e491]: "We're aiming to improve on the current status-quo for audio development in quite a few ways:"
+                - list [ref=e492]:
+                  - listitem [ref=e493]: To match (and often beat) the performance of traditional C/C++
+                  - listitem [ref=e494]: To make the same code portable across diverse processor architectures (CPU, DSP, GPU, TPU etc)
+                  - listitem [ref=e495]: To offer enough power and flexibility to satisfy professional audio tech industry users
+                  - listitem [ref=e496]: To speed-up commercial product cycles by enabling sound-designers to be more independent from the instrument platforms
+                  - listitem [ref=e497]: To attract students and beginners by being vastly easier to learn than C/C++
+                - paragraph [ref=e498]:
+                  - text: Our main documentation site is at
+                  - link "cmajor.dev" [ref=e499] [cursor=pointer]:
+                    - /url: https://cmajor.dev
+                  - text: .
+                - paragraph [ref=e500]:
+                  - text: The
+                  - link "Cmajor VScode extension" [ref=e501] [cursor=pointer]:
+                    - /url: https://marketplace.visualstudio.com/items?itemName=CmajorSoftware.cmajor-tools
+                  - text: offers a one-click install process to get you up-and-running, or see the
+                  - link "Quick Start Guide" [ref=e502] [cursor=pointer]:
+                    - /url: https://cmajor.dev/docs/GettingStarted
+                  - text: for other options, like how to use the command-line tools.
+                - paragraph [ref=e503]:
+                  - text: If you want to learn about the nitty-gritty of the Cmajor language, the
+                  - link "language guide" [ref=e504] [cursor=pointer]:
+                    - /url: https://cmajor.dev/docs/LanguageReference
+                  - text: offers a deep dive. To see some examples of the code, try the
+                  - link "examples" [ref=e505] [cursor=pointer]:
+                    - /url: /cmajor-lang/cmajor/blob/main/examples/patches
+                  - text: folder.
+                - generic [ref=e506]:
+                  - heading "How to build" [level=2] [ref=e507]
+                  - 'link "Permalink: How to build" [ref=e508] [cursor=pointer]':
+                    - /url: "#how-to-build"
+                    - img [ref=e509]
+                - paragraph [ref=e511]: To build Cmajor requires a host with suitable compilers, and with support for Cmake. For MacOS, a recent XCode is required, whilst Windows requires VS2019. Linux builds have been successfully built using both clang and gcc v8 and above.
+                - paragraph [ref=e512]: When cloning the Cmajor repository, you need to ensure you have also pulled the submodules, as there are a number for third party libraries and some pre-built LLVM libraries.
+                - generic [ref=e513]:
+                  - heading "Building on MacOS" [level=3] [ref=e514]
+                  - 'link "Permalink: Building on MacOS" [ref=e515] [cursor=pointer]':
+                    - /url: "#building-on-macos"
+                    - img [ref=e516]
+                - paragraph [ref=e518]: "To build on MacOS, from the top level directory in a shell execute:"
+                - generic [ref=e519]:
+                  - code [ref=e521]: "> cmake -Bbuild -GXcode ."
+                  - button "Copy code to clipboard" [ref=e523] [cursor=pointer]:
+                    - img [ref=e524]
+                - paragraph [ref=e527]: You can then open the XCode project in the build directory to build the tooling
+                - generic [ref=e528]:
+                  - heading "Building on Windows" [level=3] [ref=e529]
+                  - 'link "Permalink: Building on Windows" [ref=e530] [cursor=pointer]':
+                    - /url: "#building-on-windows"
+                    - img [ref=e531]
+                - paragraph [ref=e533]: "On Windows, use cmake to build a suitable project to be opened with visual studio. From the top level directory in a shell execute:"
+                - generic [ref=e534]:
+                  - code [ref=e536]: "> cmake -Bbuild -G\"Visual Studio 16 2019\" ."
+                  - button "Copy code to clipboard" [ref=e538] [cursor=pointer]:
+                    - img [ref=e539]
+                - paragraph [ref=e542]:
+                  - text: The resulting visual studio project can be opened and the tooling built. On Windows/arm64, building the plugin is not supported for now, and this can be disabled by specifying
+                  - code [ref=e543]: "-DBUILD_PLUGIN=OFF"
+                  - text: when running cmake
+                - paragraph [ref=e544]:
+                  - text: Only
+                  - code [ref=e545]: Release
+                  - text: and
+                  - code [ref=e546]: RelWithDebugInfo
+                  - text: builds of the windows project are currently supported, as the pre-built LLVM libraries use the release runtime. If you find you need a Debug build, the simplest way is to re-build the LLVM library as a debug build. Be warned, this will take some time and the resulting LLVM libraries are rather large. The LLVM build script can be run to achieve this specifying
+                  - code [ref=e547]: "--build-type=Debug"
+                - generic [ref=e548]:
+                  - heading "Building on Linux" [level=3] [ref=e549]
+                  - 'link "Permalink: Building on Linux" [ref=e550] [cursor=pointer]':
+                    - /url: "#building-on-linux"
+                    - img [ref=e551]
+                - paragraph [ref=e553]: "On linux platforms, simply running cmake with your generator of choice will produce a suitable build. We find ninja works well for this project:"
+                - generic [ref=e554]:
+                  - code [ref=e556]: "> cmake -Bbuild -GNinja -DBUILD_PLUGIN=OFF -DCMAKE_BUILD_TYPE=Release . > cd build > ninja"
+                  - button "Copy code to clipboard" [ref=e558] [cursor=pointer]:
+                    - img [ref=e559]
+                - separator [ref=e562]
+                - paragraph [ref=e563]:
+                  - text: All content is copyright 2023
+                  - link "Cmajor Software Ltd" [ref=e564] [cursor=pointer]:
+                    - /url: https://cmajor.dev
+                  - text: unless marked otherwise.
+        - generic [ref=e568]:
+          - generic [ref=e571]:
+            - heading "About" [level=2] [ref=e572]
+            - paragraph [ref=e573]: The Cmajor public repository
+            - generic [ref=e574]:
+              - img [ref=e575]
+              - link "cmajor.dev" [ref=e578] [cursor=pointer]:
+                - /url: https://cmajor.dev
+            - heading "Topics" [level=3] [ref=e579]
+            - generic [ref=e581]:
+              - link "audio" [ref=e582] [cursor=pointer]:
+                - /url: /topics/audio
+              - link "programming-language" [ref=e583] [cursor=pointer]:
+                - /url: /topics/programming-language
+              - link "dsp" [ref=e584] [cursor=pointer]:
+                - /url: /topics/dsp
+            - heading "Resources" [level=3] [ref=e585]
+            - link "Readme" [ref=e587] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e588]
+              - text: Readme
+            - heading "License" [level=3] [ref=e590]
+            - link "View license" [ref=e592] [cursor=pointer]:
+              - /url: "#License-1-ov-file"
+              - img [ref=e593]
+              - text: View license
+            - link "Activity" [ref=e596] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/activity
+              - img [ref=e597]
+              - text: Activity
+            - link "Custom properties" [ref=e600] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/custom-properties
+              - img [ref=e601]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e603]
+            - link "729 stars" [ref=e605] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/stargazers
+              - img [ref=e606]
+              - strong [ref=e608]: "729"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e609]
+            - link "34 watching" [ref=e611] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/watchers
+              - img [ref=e612]
+              - strong [ref=e614]: "34"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e615]
+            - link "51 forks" [ref=e617] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/forks
+              - img [ref=e618]
+              - strong [ref=e620]: "51"
+              - text: forks
+            - link "Report repository" [ref=e622] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fcmajor-lang%2Fcmajor&report=cmajor-lang+%28user%29
+          - generic [ref=e624]:
+            - heading "Releases 28" [level=2] [ref=e625]:
+              - link "Releases 28" [ref=e626] [cursor=pointer]:
+                - /url: /cmajor-lang/cmajor/releases
+                - text: Releases
+                - generic "28" [ref=e627]
+            - link "1.0.3066 Latest Nov 23, 2025on Nov 23, 2025" [ref=e628] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/releases/tag/1.0.3066
+              - img [ref=e629]
+              - generic [ref=e631]:
+                - generic [ref=e632]:
+                  - generic [ref=e633]: 1.0.3066
+                  - 'generic "Label: Latest" [ref=e634]': Latest
+                - generic [ref=e635]: Nov 23, 2025on Nov 23, 2025
+            - link "+ 27 releases" [ref=e637] [cursor=pointer]:
+              - /url: /cmajor-lang/cmajor/releases
+          - generic [ref=e639]:
+            - heading "Packages" [level=2] [ref=e640]:
+              - link "Packages" [ref=e641] [cursor=pointer]:
+                - /url: /orgs/cmajor-lang/packages?repo_name=cmajor
+            - generic [ref=e642]: No packages published
+          - generic [ref=e644]:
+            - heading "Contributors 5" [level=2] [ref=e645]:
+              - link "Contributors 5" [ref=e646] [cursor=pointer]:
+                - /url: /cmajor-lang/cmajor/graphs/contributors
+                - text: Contributors
+                - generic "5" [ref=e647]
+            - list [ref=e648]:
+              - listitem [ref=e649]:
+                - link "@cesaref" [ref=e650] [cursor=pointer]:
+                  - /url: https://github.com/cesaref
+                  - img "@cesaref" [ref=e651]
+              - listitem [ref=e652]:
+                - link "@julianstorer" [ref=e653] [cursor=pointer]:
+                  - /url: https://github.com/julianstorer
+                  - img "@julianstorer" [ref=e654]
+              - listitem [ref=e655]:
+                - link "@LucasThompson" [ref=e656] [cursor=pointer]:
+                  - /url: https://github.com/LucasThompson
+                  - img "@LucasThompson" [ref=e657]
+              - listitem [ref=e658]:
+                - link "@hazza-music" [ref=e659] [cursor=pointer]:
+                  - /url: https://github.com/hazza-music
+                  - img "@hazza-music" [ref=e660]
+              - listitem [ref=e661]:
+                - link "@reedrosenbluth" [ref=e662] [cursor=pointer]:
+                  - /url: https://github.com/reedrosenbluth
+                  - img "@reedrosenbluth" [ref=e663]
+          - generic [ref=e665]:
+            - heading "Languages" [level=2] [ref=e666]
+            - list [ref=e674]:
+              - listitem [ref=e675]:
+                - link "C 80.0%" [ref=e676] [cursor=pointer]:
+                  - /url: /cmajor-lang/cmajor/search?l=c
+                  - img [ref=e677]
+                  - generic [ref=e679]: C
+                  - generic [ref=e680]: 80.0%
+              - listitem [ref=e681]:
+                - link "C++ 18.4%" [ref=e682] [cursor=pointer]:
+                  - /url: /cmajor-lang/cmajor/search?l=c%2B%2B
+                  - img [ref=e683]
+                  - generic [ref=e685]: C++
+                  - generic [ref=e686]: 18.4%
+              - listitem [ref=e687]:
+                - link "JavaScript 1.2%" [ref=e688] [cursor=pointer]:
+                  - /url: /cmajor-lang/cmajor/search?l=javascript
+                  - img [ref=e689]
+                  - generic [ref=e691]: JavaScript
+                  - generic [ref=e692]: 1.2%
+              - listitem [ref=e693]:
+                - link "Python 0.3%" [ref=e694] [cursor=pointer]:
+                  - /url: /cmajor-lang/cmajor/search?l=python
+                  - img [ref=e695]
+                  - generic [ref=e697]: Python
+                  - generic [ref=e698]: 0.3%
+              - listitem [ref=e699]:
+                - link "CMake 0.1%" [ref=e700] [cursor=pointer]:
+                  - /url: /cmajor-lang/cmajor/search?l=cmake
+                  - img [ref=e701]
+                  - generic [ref=e703]: CMake
+                  - generic [ref=e704]: 0.1%
+              - listitem [ref=e705]:
+                - link "HTML 0.0%" [ref=e706] [cursor=pointer]:
+                  - /url: /cmajor-lang/cmajor/search?l=html
+                  - img [ref=e707]
+                  - generic [ref=e709]: HTML
+                  - generic [ref=e710]: 0.0%
+  - contentinfo [ref=e712]:
+    - heading "Footer" [level=2] [ref=e713]
+    - generic [ref=e714]:
+      - generic [ref=e715]:
+        - link "GitHub Homepage" [ref=e716] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e717]
+        - generic [ref=e719]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e720]:
+        - heading "Footer navigation" [level=3] [ref=e721]
+        - list "Footer navigation" [ref=e722]:
+          - listitem [ref=e723]:
+            - link "Terms" [ref=e724] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e725]:
+            - link "Privacy" [ref=e726] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e727]:
+            - link "Security" [ref=e728] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e729]:
+            - link "Status" [ref=e730] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e731]:
+            - link "Community" [ref=e732] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e733]:
+            - link "Docs" [ref=e734] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e735]:
+            - link "Contact" [ref=e736] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e737]:
+            - button "Manage cookies" [ref=e739] [cursor=pointer]
+          - listitem [ref=e740]:
+            - button "Do not share my personal information" [ref=e742] [cursor=pointer]

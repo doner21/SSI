@@ -1,0 +1,12 @@
+G1A EVENT-REPLAY ACROSS RELOAD — FREEZE
+=========================================
+Frozen at: 2026-07-01T11:37:00Z
+
+PRE-REGISTRATION.md SHA-256:
+707e105a917c09fe0945f7846313a2da52e11121576caf6d1ac82517a38d3a2c
+
+HARNESS-SPEC.md SHA-256:
+8257efbefee2ab18d3fe5c07a174d6ff793c77ce8958c9116e76ce125e3a79e6
+
+spike/ directory: EMPTY at freeze (no spike results exist).
+No threshold was tuned. No measured number exists in either file.
